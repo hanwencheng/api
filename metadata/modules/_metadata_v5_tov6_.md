@@ -12,9 +12,9 @@
 
 ###  toV6
 
-▸ **toV6**(`__namedParameters`: object): *[MetadataV6](../classes/_metadata_v6_metadata_.metadatav6.md)*
+▸ **toV6**(`registry`: Registry, `__namedParameters`: object): *[MetadataV6](../classes/_metadata_v6_metadata_.metadatav6.md)*
 
-*Defined in [Metadata/v5/toV6.ts:13](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Metadata/v5/toV6.ts#L13)*
+*Defined in [Metadata/v5/toV6.ts:15](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v5/toV6.ts#L15)*
 
 Convert from MetadataV5 to MetadataV6
 See https://github.com/polkadot-js/api/issues/1043 for details
@@ -23,6 +23,7 @@ See https://github.com/polkadot-js/api/issues/1043 for details
 
 Name | Type |
 ------ | ------ |
+`registry` | Registry |
 `__namedParameters` | object |
 
 **Returns:** *[MetadataV6](../classes/_metadata_v6_metadata_.metadatav6.md)*

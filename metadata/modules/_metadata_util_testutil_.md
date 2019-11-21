@@ -14,9 +14,9 @@
 
 ###  decodeLatestSubstrate
 
-▸ **decodeLatestSubstrate**<**Modules**>(`version`: number, `rpcData`: string, `staticSubstrate`: object): *void*
+▸ **decodeLatestSubstrate**<**Modules**>(`registry`: Registry, `version`: number, `rpcData`: string, `staticSubstrate`: object): *void*
 
-*Defined in [Metadata/util/testUtil.ts:20](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Metadata/util/testUtil.ts#L20)*
+*Defined in [Metadata/util/testUtil.ts:17](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/util/testUtil.ts#L17)*
 
 Given the static `rpcData` and the `staticSubstrate` JSON file, Metadata
 should decode `rpcData` and output `staticSubstrate`.
@@ -29,6 +29,7 @@ should decode `rpcData` and output `staticSubstrate`.
 
 Name | Type |
 ------ | ------ |
+`registry` | Registry |
 `version` | number |
 `rpcData` | string |
 `staticSubstrate` | object |
@@ -39,9 +40,9 @@ ___
 
 ###  defaultValues
 
-▸ **defaultValues**(`rpcData`: string): *void*
+▸ **defaultValues**(`registry`: Registry, `rpcData`: string): *void*
 
-*Defined in [Metadata/util/testUtil.ts:56](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Metadata/util/testUtil.ts#L56)*
+*Defined in [Metadata/util/testUtil.ts:49](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/util/testUtil.ts#L49)*
 
 Given a Metadata, no type should throw when given its fallback value.
 
@@ -49,6 +50,7 @@ Given a Metadata, no type should throw when given its fallback value.
 
 Name | Type |
 ------ | ------ |
+`registry` | Registry |
 `rpcData` | string |
 
 **Returns:** *void*
@@ -57,9 +59,9 @@ ___
 
 ###  toLatest
 
-▸ **toLatest**<**Modules**>(`version`: number, `rpcData`: string): *void*
+▸ **toLatest**<**Modules**>(`registry`: Registry, `version`: number, `rpcData`: string): *void*
 
-*Defined in [Metadata/util/testUtil.ts:40](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Metadata/util/testUtil.ts#L40)*
+*Defined in [Metadata/util/testUtil.ts:33](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/util/testUtil.ts#L33)*
 
 Given a `version`, MetadataLatest and MetadataV{version} should output the same
 unique types.
@@ -72,6 +74,7 @@ unique types.
 
 Name | Type |
 ------ | ------ |
+`registry` | Registry |
 `version` | number |
 `rpcData` | string |
 

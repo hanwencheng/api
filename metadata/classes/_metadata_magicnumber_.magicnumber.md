@@ -18,6 +18,10 @@
 
 * [constructor](_metadata_magicnumber_.magicnumber.md#constructor)
 
+### Properties
+
+* [registry](_metadata_magicnumber_.magicnumber.md#registry)
+
 ### Accessors
 
 * [encodedLength](_metadata_magicnumber_.magicnumber.md#encodedlength)
@@ -123,24 +127,36 @@
 * [min](_metadata_magicnumber_.magicnumber.md#static-min)
 * [mont](_metadata_magicnumber_.magicnumber.md#static-mont)
 * [red](_metadata_magicnumber_.magicnumber.md#static-red)
+* [with](_metadata_magicnumber_.magicnumber.md#static-with)
 
 ## Constructors
 
 ###  constructor
 
-\+ **new MagicNumber**(`value?`: any): *[MagicNumber](_metadata_magicnumber_.magicnumber.md)*
+\+ **new MagicNumber**(`registry`: Registry, `value?`: any): *[MagicNumber](_metadata_magicnumber_.magicnumber.md)*
 
 *Overrides void*
 
-*Defined in [Metadata/MagicNumber.ts:11](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Metadata/MagicNumber.ts#L11)*
+*Defined in [Metadata/MagicNumber.ts:13](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/MagicNumber.ts#L13)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
+`registry` | Registry |
 `value?` | any |
 
 **Returns:** *[MagicNumber](_metadata_magicnumber_.magicnumber.md)*
+
+## Properties
+
+###  registry
+
+• **registry**: *Registry*
+
+*Inherited from void*
+
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:25](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/AbstractInt.ts#L25)*
 
 ## Accessors
 
@@ -150,7 +166,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:75](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/AbstractInt.ts#L75)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:73](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/AbstractInt.ts#L73)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -164,7 +180,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:82](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/AbstractInt.ts#L82)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:80](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/AbstractInt.ts#L80)*
 
 **`description`** returns a hash of the contents
 
@@ -178,7 +194,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:89](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/AbstractInt.ts#L89)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:87](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/AbstractInt.ts#L87)*
 
 **`description`** Checks if the value is a zero value (align elsewhere)
 
@@ -308,7 +324,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:96](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/AbstractInt.ts#L96)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:94](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/AbstractInt.ts#L94)*
 
 **`description`** Returns the number of bits in the value
 
@@ -472,7 +488,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:104](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/AbstractInt.ts#L104)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:102](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/AbstractInt.ts#L102)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -1579,7 +1595,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:117](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/AbstractInt.ts#L117)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:115](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/AbstractInt.ts#L115)*
 
 **`description`** Returns the BN representation of the number. (Compatibility)
 
@@ -1616,7 +1632,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/UInt.ts#L37)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -1638,7 +1654,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:129](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/AbstractInt.ts#L129)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:127](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/AbstractInt.ts#L127)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -1668,7 +1684,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/UInt.ts#L49)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/UInt.ts#L50)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -1704,7 +1720,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:147](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/AbstractInt.ts#L147)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:145](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/AbstractInt.ts#L145)*
 
 **`description`** Returns the string representation of the value
 
@@ -1746,7 +1762,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/UInt.ts#L63)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -1940,7 +1956,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:44](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/AbstractInt.ts#L44)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:42](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/AbstractInt.ts#L42)*
 
 **Parameters:**
 
@@ -2053,3 +2069,21 @@ Name | Type |
 `reductionContext` | BN &#124; IPrimeName |
 
 **Returns:** *ReductionContext*
+
+___
+
+### `Static` with
+
+▸ **with**(`bitLength?`: UIntBitLength): *Constructor‹UInt›*
+
+*Inherited from void*
+
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/UInt.ts#L27)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`bitLength?` | UIntBitLength |
+
+**Returns:** *Constructor‹UInt›*

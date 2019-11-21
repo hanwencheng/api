@@ -17,7 +17,7 @@
 * ["query.types"](modules/_query_types_.md)
 * ["rx/Api"](modules/_rx_api_.md)
 * ["submittable/Result"](modules/_submittable_result_.md)
-* ["submittable/Submittable"](modules/_submittable_submittable_.md)
+* ["submittable/createClass"](modules/_submittable_createclass_.md)
 * ["submittable/createSubmittable"](modules/_submittable_createsubmittable_.md)
 * ["submittable/types"](modules/_submittable_types_.md)
 * ["types"](modules/_types_.md)

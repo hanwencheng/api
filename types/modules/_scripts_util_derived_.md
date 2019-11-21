@@ -15,7 +15,7 @@
 
 ▸ **getDerivedTypes**(`type`: string, `primitiveName`: string, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)): *string[]*
 
-*Defined in [scripts/util/derived.ts:17](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/scripts/util/derived.ts#L17)*
+*Defined in [scripts/util/derived.ts:17](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/scripts/util/derived.ts#L17)*
 
 **Parameters:**
 
@@ -31,14 +31,15 @@ ___
 
 ###  getSimilarTypes
 
-▸ **getSimilarTypes**(`type`: string, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)): *string[]*
+▸ **getSimilarTypes**(`registry`: [Registry](../interfaces/_types_.registry.md), `type`: string, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)): *string[]*
 
-*Defined in [scripts/util/derived.ts:37](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/scripts/util/derived.ts#L37)*
+*Defined in [scripts/util/derived.ts:37](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/scripts/util/derived.ts#L37)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
+`registry` | [Registry](../interfaces/_types_.registry.md) |
 `type` | string |
 `imports` | [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md) |
 

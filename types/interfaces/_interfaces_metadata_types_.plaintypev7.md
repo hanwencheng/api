@@ -26,6 +26,10 @@ Type
 
 * [constructor](_interfaces_metadata_types_.plaintypev7.md#constructor)
 
+### Properties
+
+* [registry](_interfaces_metadata_types_.plaintypev7.md#registry)
+
 ### Accessors
 
 * [encodedLength](_interfaces_metadata_types_.plaintypev7.md#encodedlength)
@@ -46,21 +50,32 @@ Type
 
 ###  constructor
 
-\+ **new PlainTypeV7**(`value`: [Text](../classes/_primitive_text_.text.md) | Uint8Array | string): *[PlainTypeV7](_interfaces_metadata_types_.plaintypev7.md)*
+\+ **new PlainTypeV7**(`registry`: [Registry](_types_.registry.md), `value`: [Text](../classes/_primitive_text_.text.md) | Uint8Array | string): *[PlainTypeV7](_interfaces_metadata_types_.plaintypev7.md)*
 
 *Inherited from [Type](../classes/_primitive_type_.type.md).[constructor](../classes/_primitive_type_.type.md#constructor)*
 
 *Overrides [Text](../classes/_primitive_text_.text.md).[constructor](../classes/_primitive_text_.text.md#constructor)*
 
-*Defined in [primitive/Type.ts:16](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Type.ts#L16)*
+*Defined in [primitive/Type.ts:18](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Type.ts#L18)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
+`registry` | [Registry](_types_.registry.md) | - |
 `value` | [Text](../classes/_primitive_text_.text.md) &#124; Uint8Array &#124; string | "" |
 
 **Returns:** *[PlainTypeV7](_interfaces_metadata_types_.plaintypev7.md)*
+
+## Properties
+
+###  registry
+
+• **registry**: *[Registry](_types_.registry.md)*
+
+*Inherited from [Text](../classes/_primitive_text_.text.md).[registry](../classes/_primitive_text_.text.md#registry)*
+
+*Defined in [primitive/Text.ts:24](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Text.ts#L24)*
 
 ## Accessors
 
@@ -72,7 +87,7 @@ Name | Type | Default |
 
 *Overrides [Text](../classes/_primitive_text_.text.md).[encodedLength](../classes/_primitive_text_.text.md#encodedlength)*
 
-*Defined in [primitive/Type.ts:36](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Type.ts#L36)*
+*Defined in [primitive/Type.ts:34](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Type.ts#L34)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -86,7 +101,7 @@ ___
 
 *Inherited from [Text](../classes/_primitive_text_.text.md).[hash](../classes/_primitive_text_.text.md#hash)*
 
-*Defined in [primitive/Text.ts:59](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Text.ts#L59)*
+*Defined in [primitive/Text.ts:61](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Text.ts#L61)*
 
 **`description`** returns a hash of the contents
 
@@ -100,7 +115,7 @@ ___
 
 *Inherited from [Text](../classes/_primitive_text_.text.md).[isEmpty](../classes/_primitive_text_.text.md#isempty)*
 
-*Defined in [primitive/Text.ts:66](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Text.ts#L66)*
+*Defined in [primitive/Text.ts:68](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Text.ts#L68)*
 
 **`description`** Checks if the value is an empty value
 
@@ -116,7 +131,7 @@ ___
 
 *Overrides void*
 
-*Defined in [primitive/Text.ts:73](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Text.ts#L73)*
+*Defined in [primitive/Text.ts:75](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Text.ts#L75)*
 
 **`description`** The length of the value
 
@@ -130,7 +145,7 @@ ___
 
 *Inherited from [Text](../classes/_primitive_text_.text.md).[eq](../classes/_primitive_text_.text.md#eq)*
 
-*Defined in [primitive/Text.ts:81](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Text.ts#L81)*
+*Defined in [primitive/Text.ts:83](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Text.ts#L83)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -150,7 +165,7 @@ ___
 
 *Inherited from [Text](../classes/_primitive_text_.text.md).[toHex](../classes/_primitive_text_.text.md#tohex)*
 
-*Defined in [primitive/Text.ts:90](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Text.ts#L90)*
+*Defined in [primitive/Text.ts:92](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Text.ts#L92)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -164,7 +179,7 @@ ___
 
 *Inherited from [Text](../classes/_primitive_text_.text.md).[toJSON](../classes/_primitive_text_.text.md#tojson)*
 
-*Defined in [primitive/Text.ts:99](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Text.ts#L99)*
+*Defined in [primitive/Text.ts:101](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Text.ts#L101)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -180,7 +195,7 @@ ___
 
 *Overrides [Text](../classes/_primitive_text_.text.md).[toRawType](../classes/_primitive_text_.text.md#torawtype)*
 
-*Defined in [primitive/Type.ts:46](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Type.ts#L46)*
+*Defined in [primitive/Type.ts:44](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Type.ts#L44)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -196,7 +211,7 @@ ___
 
 *Overrides void*
 
-*Defined in [primitive/Text.ts:113](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Text.ts#L113)*
+*Defined in [primitive/Text.ts:115](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Text.ts#L115)*
 
 **`description`** Returns the string representation of the value
 
@@ -210,7 +225,7 @@ ___
 
 *Inherited from [Text](../classes/_primitive_text_.text.md).[toU8a](../classes/_primitive_text_.text.md#tou8a)*
 
-*Defined in [primitive/Text.ts:122](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Text.ts#L122)*
+*Defined in [primitive/Text.ts:124](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Text.ts#L124)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

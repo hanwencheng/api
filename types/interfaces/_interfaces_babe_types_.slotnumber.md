@@ -25,23 +25,25 @@ u64
 * [toHex](_interfaces_babe_types_.slotnumber.md#tohex)
 * [toRawType](_interfaces_babe_types_.slotnumber.md#torawtype)
 * [toU8a](_interfaces_babe_types_.slotnumber.md#tou8a)
+* [with](_interfaces_babe_types_.slotnumber.md#static-with)
 
 ## Constructors
 
 ###  constructor
 
-\+ **new SlotNumber**(`value?`: [AnyNumber](../modules/_types_.md#anynumber)): *[SlotNumber](_interfaces_babe_types_.slotnumber.md)*
+\+ **new SlotNumber**(`registry`: [Registry](_types_.registry.md), `value?`: [AnyNumber](../modules/_types_.md#anynumber)): *[SlotNumber](_interfaces_babe_types_.slotnumber.md)*
 
 *Inherited from [U64](../classes/_primitive_u64_.u64.md).[constructor](../classes/_primitive_u64_.u64.md#constructor)*
 
 *Overrides [UInt](../classes/_codec_uint_.uint.md).[constructor](../classes/_codec_uint_.uint.md#constructor)*
 
-*Defined in [primitive/U64.ts:14](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/U64.ts#L14)*
+*Defined in [primitive/U64.ts:14](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/U64.ts#L14)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
+`registry` | [Registry](_types_.registry.md) |
 `value?` | [AnyNumber](../modules/_types_.md#anynumber) |
 
 **Returns:** *[SlotNumber](_interfaces_babe_types_.slotnumber.md)*
@@ -56,7 +58,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:37](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/UInt.ts#L37)*
+*Defined in [codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -78,7 +80,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:49](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/UInt.ts#L49)*
+*Defined in [codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/UInt.ts#L50)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -94,7 +96,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/UInt.ts:63](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/UInt.ts#L63)*
+*Defined in [codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -105,3 +107,21 @@ Name | Type | Description |
 `isBare?` | undefined &#124; false &#124; true | true when the value has none of the type-specific prefixes (internal)  |
 
 **Returns:** *Uint8Array*
+
+___
+
+### `Static` with
+
+▸ **with**(`bitLength?`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)): *[Constructor](_types_.constructor.md)‹[UInt](../classes/_codec_uint_.uint.md)›*
+
+*Inherited from [UInt](../classes/_codec_uint_.uint.md).[with](../classes/_codec_uint_.uint.md#static-with)*
+
+*Defined in [codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/UInt.ts#L27)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`bitLength?` | [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength) |
+
+**Returns:** *[Constructor](_types_.constructor.md)‹[UInt](../classes/_codec_uint_.uint.md)›*

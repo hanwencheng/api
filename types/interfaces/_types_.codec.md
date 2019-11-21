@@ -6,7 +6,7 @@
 
 **`description`** 
 The base Codec interface. All types implement the interface provided here. Additionally
-implementors can add their own specific interfaces and helpres with getters and functions.
+implementors can add their own specific interfaces and helpers with getters and functions.
 The Codec Base is however required for operating as an encoding/decoding layer
 
 ## Hierarchy
@@ -44,14 +44,14 @@ The Codec Base is however required for operating as an encoding/decoding layer
 ## Implemented by
 
 * [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md)
-* [AccountId](../classes/_primitive_generic_accountid_.accountid.md)
 * [AccountId](_interfaces_runtime_types_.accountid.md)
+* [AccountId](../classes/_primitive_generic_accountid_.accountid.md)
 * [AccountIdOf](_interfaces_runtime_types_.accountidof.md)
-* [AccountIndex](../classes/_primitive_generic_accountindex_.accountindex.md)
 * [AccountIndex](_interfaces_runtime_types_.accountindex.md)
+* [AccountIndex](../classes/_primitive_generic_accountindex_.accountindex.md)
 * [AccountInfo](_interfaces_deprecated_types_.accountinfo.md)
-* [Address](../classes/_primitive_generic_address_.address.md)
 * [Address](_interfaces_runtime_types_.address.md)
+* [Address](../classes/_primitive_generic_address_.address.md)
 * [AliveContractInfo](_interfaces_contracts_types_.alivecontractinfo.md)
 * [Amount](_interfaces_deprecated_types_.amount.md)
 * [ApprovalFlag](_interfaces_elections_types_.approvalflag.md)
@@ -412,6 +412,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [encodedLength](_types_.codec.md#encodedlength)
 * [hash](_types_.codec.md#hash)
 * [isEmpty](_types_.codec.md#isempty)
+* [registry](_types_.codec.md#registry)
 
 ### Methods
 
@@ -428,7 +429,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
 • **encodedLength**: *number*
 
-*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/types.ts#L77)*
+*Defined in [types.ts:77](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L77)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -438,7 +439,7 @@ ___
 
 • **hash**: *[IHash](_types_.ihash.md)*
 
-*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/types.ts#L82)*
+*Defined in [types.ts:82](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L82)*
 
 **`description`** Returns a hash of the value
 
@@ -448,9 +449,19 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/types.ts#L87)*
+*Defined in [types.ts:87](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L87)*
 
 **`description`** Checks if the value is an empty value
+
+___
+
+###  registry
+
+• **registry**: *[Registry](_types_.registry.md)*
+
+*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L92)*
+
+**`description`** The registry associated with this object
 
 ## Methods
 
@@ -458,7 +469,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/types.ts#L92)*
+*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L97)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -476,7 +487,7 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [types.ts:97](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/types.ts#L97)*
+*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L102)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -494,7 +505,7 @@ ___
 
 ▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
-*Defined in [types.ts:102](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/types.ts#L102)*
+*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L107)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -506,7 +517,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [types.ts:107](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/types.ts#L107)*
+*Defined in [types.ts:112](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L112)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -518,7 +529,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [types.ts:112](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/types.ts#L112)*
+*Defined in [types.ts:117](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L117)*
 
 **`description`** Returns the string representation of the value
 
@@ -530,7 +541,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *Uint8Array*
 
-*Defined in [types.ts:118](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/types.ts#L118)*
+*Defined in [types.ts:123](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L123)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

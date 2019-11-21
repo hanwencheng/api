@@ -16,6 +16,6 @@
 
 ### `Const` MAGIC_NUMBER
 
-• **MAGIC_NUMBER**: *U32‹›* =  new U32(0x6174656d)
+• **MAGIC_NUMBER**: *1635018093* = 1635018093
 
-*Defined in [Metadata/MagicNumber.ts:9](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Metadata/MagicNumber.ts#L9)*
+*Defined in [Metadata/MagicNumber.ts:11](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/MagicNumber.ts#L11)*

@@ -43,7 +43,6 @@
 * ["codec/utils/encodeTypes"](modules/_codec_utils_encodetypes_.md)
 * ["codec/utils/mapToTypeMap"](modules/_codec_utils_maptotypemap_.md)
 * ["index.types"](modules/_index_types_.md)
-* ["injector"](modules/_injector_.md)
 * ["interfaceRegistry"](modules/_interfaceregistry_.md)
 * ["interfaces/attestations/definitions"](modules/_interfaces_attestations_definitions_.md)
 * ["interfaces/attestations/types"](modules/_interfaces_attestations_types_.md)

@@ -20,14 +20,15 @@
 
 ###  constructor
 
-\+ **new Constructor**(...`value`: any[]): *T*
+\+ **new Constructor**(`registry`: [Registry](_types_.registry.md), ...`value`: any[]): *T*
 
-*Defined in [types.ts:126](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/types.ts#L126)*
+*Defined in [types.ts:131](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/types.ts#L131)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
+`registry` | [Registry](_types_.registry.md) |
 `...value` | any[] |
 
 **Returns:** *T*

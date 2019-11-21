@@ -12,9 +12,9 @@
 
 ###  createDescriptor
 
-▸ **createDescriptor**(`section`: string, `sectionIndex`: number, `methodIndex`: number, `callMetadata`: FunctionMetadataLatest): *CallFunction*
+▸ **createDescriptor**(`registry`: Registry, `section`: string, `sectionIndex`: number, `methodIndex`: number, `callMetadata`: RegistryMetadataCall): *CallFunction*
 
-*Defined in [Decorated/extrinsics/fromMetadata/createUnchecked.ts:20](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Decorated/extrinsics/fromMetadata/createUnchecked.ts#L20)*
+*Defined in [Decorated/extrinsics/fromMetadata/createUnchecked.ts:22](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Decorated/extrinsics/fromMetadata/createUnchecked.ts#L22)*
 
 From the metadata of a function in the module's storage, generate the function
 that will return the an [[CallFunction]].
@@ -23,9 +23,10 @@ that will return the an [[CallFunction]].
 
 Name | Type | Description |
 ------ | ------ | ------ |
+`registry` | Registry | - |
 `section` | string | Name of the module section. |
 `sectionIndex` | number | Index of the module section in the modules array. |
 `methodIndex` | number | Index of the method inside the section. |
-`callMetadata` | FunctionMetadataLatest | Metadata of the call function.  |
+`callMetadata` | RegistryMetadataCall | Metadata of the call function.  |
 
 **Returns:** *CallFunction*

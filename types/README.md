@@ -32,9 +32,9 @@ These primitive types are available:
 
 | **Types** | |
 | --- | --- |
-| [AccountId](classes/_primitive_generic_accountid_.accountid.md) | A wrapper around an AccountId/PublicKey representation |
-| [AccountIndex](classes/_primitive_generic_accountindex_.accountindex.md) | A wrapper around an AccountIndex, which is a shortened, variable-length encoding for an Account |
-| [Address](classes/_primitive_generic_address_.address.md) | A wrapper around an AccountId and/or AccountIndex that is encoded with a prefix |
+| [AccountId](interfaces/_interfaces_runtime_types_.accountid.md) | A wrapper around an AccountId/PublicKey representation |
+| [AccountIndex](interfaces/_interfaces_runtime_types_.accountindex.md) | A wrapper around an AccountIndex, which is a shortened, variable-length encoding for an Account |
+| [Address](interfaces/_interfaces_runtime_types_.address.md) | A wrapper around an AccountId and/or AccountIndex that is encoded with a prefix |
 | [bool](interfaces/_interfaceregistry_.interfaceregistry.md#bool) | Representation for a boolean value in the system |
 | [Bytes](classes/_primitive_bytes_.bytes.md) | A Bytes wrapper for `Vec<u8>` |
 | [Call](interfaces/_interfaces_runtime_types_.call.md) | Extrinsic function descriptor, as defined in [the extrinsic format for a node](https://github.com/paritytech/wiki/blob/master/Extrinsic.md#the-extrinsic-format-for-node) |

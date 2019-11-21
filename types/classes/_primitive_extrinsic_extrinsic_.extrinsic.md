@@ -33,6 +33,10 @@ Can be:
 
 * [constructor](_primitive_extrinsic_extrinsic_.extrinsic.md#constructor)
 
+### Properties
+
+* [registry](_primitive_extrinsic_extrinsic_.extrinsic.md#registry)
+
 ### Accessors
 
 * [args](_primitive_extrinsic_extrinsic_.extrinsic.md#args)
@@ -71,20 +75,31 @@ Can be:
 
 ###  constructor
 
-\+ **new Extrinsic**(`value`: [Extrinsic](_primitive_extrinsic_extrinsic_.extrinsic.md) | ExtrinsicValue | [AnyU8a](../modules/_types_.md#anyu8a) | [Call](../interfaces/_interfaces_runtime_types_.call.md) | undefined, `__namedParameters`: object): *[Extrinsic](_primitive_extrinsic_extrinsic_.extrinsic.md)*
+\+ **new Extrinsic**(`registry`: [Registry](../interfaces/_types_.registry.md), `value`: [Extrinsic](_primitive_extrinsic_extrinsic_.extrinsic.md) | ExtrinsicValue | [AnyU8a](../modules/_types_.md#anyu8a) | [Call](../interfaces/_interfaces_runtime_types_.call.md) | undefined, `__namedParameters`: object): *[Extrinsic](_primitive_extrinsic_extrinsic_.extrinsic.md)*
 
-*Overrides [Base](_codec_base_.base.md).[constructor](_codec_base_.base.md#constructor)*
-
-*Defined in [primitive/Extrinsic/Extrinsic.ts:53](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L53)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:53](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L53)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
+`registry` | [Registry](../interfaces/_types_.registry.md) | - |
 `value` | [Extrinsic](_primitive_extrinsic_extrinsic_.extrinsic.md) &#124; ExtrinsicValue &#124; [AnyU8a](../modules/_types_.md#anyu8a) &#124; [Call](../interfaces/_interfaces_runtime_types_.call.md) &#124; undefined | - |
 `__namedParameters` | object |  {} |
 
 **Returns:** *[Extrinsic](_primitive_extrinsic_extrinsic_.extrinsic.md)*
+
+## Properties
+
+###  registry
+
+• **registry**: *[Registry](../interfaces/_types_.registry.md)*
+
+*Implementation of [IExtrinsic](../interfaces/_types_.iextrinsic.md).[registry](../interfaces/_types_.iextrinsic.md#registry)*
+
+*Inherited from [Base](_codec_base_.base.md).[registry](_codec_base_.base.md#registry)*
+
+*Defined in [codec/Base.ts:16](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Base.ts#L16)*
 
 ## Accessors
 
@@ -92,7 +107,7 @@ Name | Type | Default |
 
 • **get args**(): *[Codec](../interfaces/_types_.codec.md)[]*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:120](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L120)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:121](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L121)*
 
 **`description`** The arguments passed to for the call, exposes args so it is compatible with [Call](../interfaces/_interfaces_runtime_types_.call.md)
 
@@ -104,7 +119,7 @@ ___
 
 • **get argsDef**(): *[ArgsDef](../modules/_types_.md#argsdef)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:127](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L127)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:128](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L128)*
 
 **`description`** The argument definitions, compatible with [Call](../interfaces/_interfaces_runtime_types_.call.md)
 
@@ -116,7 +131,7 @@ ___
 
 • **get callIndex**(): *Uint8Array*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:134](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L134)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:135](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L135)*
 
 **`description`** The actual `[sectionIndex, methodIndex]` as used in the Call
 
@@ -128,7 +143,7 @@ ___
 
 • **get data**(): *Uint8Array*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:141](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L141)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:142](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L142)*
 
 **`description`** The actual data for the Call
 
@@ -142,7 +157,7 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[encodedLength](_codec_base_.base.md#encodedlength)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:155](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L155)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:156](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L156)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -154,7 +169,7 @@ ___
 
 • **get era**(): *[ExtrinsicEra](_primitive_extrinsic_extrinsicera_.extrinsicera.md)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:148](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L148)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:149](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L149)*
 
 **`description`** The era for this extrinsic
 
@@ -166,7 +181,7 @@ ___
 
 • **get hasOrigin**(): *boolean*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:162](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L162)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:163](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L163)*
 
 **`description`** `true` is method has `Origin` argument (compatibility with [Call])
 
@@ -180,7 +195,7 @@ ___
 
 *Inherited from [Base](_codec_base_.base.md).[hash](_codec_base_.base.md#hash)*
 
-*Defined in [codec/Base.ts:32](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Base.ts#L32)*
+*Defined in [codec/Base.ts:35](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Base.ts#L35)*
 
 **`description`** returns a hash of the contents
 
@@ -194,7 +209,7 @@ ___
 
 *Inherited from [Base](_codec_base_.base.md).[isEmpty](_codec_base_.base.md#isempty)*
 
-*Defined in [codec/Base.ts:39](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Base.ts#L39)*
+*Defined in [codec/Base.ts:42](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Base.ts#L42)*
 
 **`description`** Checks if the value is an empty value
 
@@ -206,7 +221,7 @@ ___
 
 • **get isSigned**(): *boolean*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:169](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L169)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:170](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L170)*
 
 **`description`** `true` id the extrinsic is signed
 
@@ -218,7 +233,7 @@ ___
 
 • **get length**(): *number*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:176](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L176)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:177](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L177)*
 
 **`description`** The length of the actual data, excluding prefix
 
@@ -230,7 +245,7 @@ ___
 
 • **get meta**(): *[FunctionMetadataLatest](../interfaces/_interfaces_metadata_types_.functionmetadatalatest.md)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:183](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L183)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:184](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L184)*
 
 **`description`** The [FunctionMetadataLatest](../interfaces/_interfaceregistry_.interfaceregistry.md#functionmetadatalatest) that describes the extrinsic
 
@@ -242,7 +257,7 @@ ___
 
 • **get method**(): *[Call](../interfaces/_interfaces_runtime_types_.call.md)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:190](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L190)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:191](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L191)*
 
 **`description`** The [Call](../interfaces/_interfaces_runtime_types_.call.md) this extrinsic wraps
 
@@ -254,7 +269,7 @@ ___
 
 • **get nonce**(): *[Compact](_codec_compact_.compact.md)‹[Index](../interfaces/_interfaces_runtime_types_.index.md)›*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:197](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L197)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:198](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L198)*
 
 **`description`** The nonce for this extrinsic
 
@@ -266,7 +281,7 @@ ___
 
 • **get signature**(): *[EcdsaSignature](../interfaces/_interfaces_runtime_types_.ecdsasignature.md) | [Ed25519Signature](../interfaces/_interfaces_runtime_types_.ed25519signature.md) | [Sr25519Signature](../interfaces/_interfaces_runtime_types_.sr25519signature.md)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:204](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L204)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:205](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L205)*
 
 **`description`** The actual [EcdsaSignature](../interfaces/_interfaces_runtime_types_.ecdsasignature.md), [Ed25519Signature](../interfaces/_interfaces_runtime_types_.ed25519signature.md) or [Sr25519Signature](../interfaces/_interfaces_runtime_types_.sr25519signature.md)
 
@@ -278,9 +293,9 @@ ___
 
 • **get signer**(): *[Address](../interfaces/_interfaces_runtime_types_.address.md)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:211](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L211)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:212](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L212)*
 
-**`description`** The [Address](_primitive_generic_address_.address.md) that signed
+**`description`** The [Address](../interfaces/_interfaces_runtime_types_.address.md) that signed
 
 **Returns:** *[Address](../interfaces/_interfaces_runtime_types_.address.md)*
 
@@ -290,7 +305,7 @@ ___
 
 • **get tip**(): *[Compact](_codec_compact_.compact.md)‹[Balance](../interfaces/_interfaces_runtime_types_.balance.md)›*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:218](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L218)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:219](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L219)*
 
 **`description`** Forwards compat
 
@@ -302,7 +317,7 @@ ___
 
 • **get type**(): *number*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:225](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L225)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:226](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L226)*
 
 **`description`** Returns the raw transaction version (not flagged with signing information)
 
@@ -314,7 +329,7 @@ ___
 
 • **get version**(): *number*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:232](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L232)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:233](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L233)*
 
 **`description`** Returns the encoded version flag
 
@@ -328,7 +343,7 @@ ___
 
 *Implementation of [IExtrinsic](../interfaces/_types_.iextrinsic.md)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:239](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L239)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:240](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L240)*
 
 **`description`** Injects an already-generated signature into the extrinsic
 
@@ -352,7 +367,7 @@ ___
 
 *Inherited from [Base](_codec_base_.base.md).[eq](_codec_base_.base.md#eq)*
 
-*Defined in [codec/Base.ts:46](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Base.ts#L46)*
+*Defined in [codec/Base.ts:49](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Base.ts#L49)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -372,7 +387,7 @@ ___
 
 *Implementation of [IExtrinsic](../interfaces/_types_.iextrinsic.md)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:248](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L248)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:249](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L249)*
 
 **`description`** Sign the extrinsic with a specific keypair
 
@@ -393,7 +408,7 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[toHex](_codec_base_.base.md#tohex)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:257](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L257)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:258](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L258)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -409,7 +424,7 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[toJSON](_codec_base_.base.md#tojson)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:264](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L264)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:265](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L265)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -425,7 +440,7 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[toRawType](_codec_base_.base.md#torawtype)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:271](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L271)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:272](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L272)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -441,7 +456,7 @@ ___
 
 *Inherited from [Base](_codec_base_.base.md).[toString](_codec_base_.base.md#tostring)*
 
-*Defined in [codec/Base.ts:67](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Base.ts#L67)*
+*Defined in [codec/Base.ts:70](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Base.ts#L70)*
 
 **`description`** Returns the string representation of the value
 
@@ -457,7 +472,7 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[toU8a](_codec_base_.base.md#tou8a)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:279](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L279)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:280](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L280)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -473,14 +488,15 @@ ___
 
 ### `Static` decodeExtrinsic
 
-▸ **decodeExtrinsic**(`value`: [Extrinsic](_primitive_extrinsic_extrinsic_.extrinsic.md) | ExtrinsicValue | [AnyU8a](../modules/_types_.md#anyu8a) | [Call](../interfaces/_interfaces_runtime_types_.call.md) | undefined, `version`: number): *ExtrinsicVx | [ExtrinsicUnknown](../interfaces/_interfaces_runtime_types_.extrinsicunknown.md)*
+▸ **decodeExtrinsic**(`registry`: [Registry](../interfaces/_types_.registry.md), `value`: [Extrinsic](_primitive_extrinsic_extrinsic_.extrinsic.md) | ExtrinsicValue | [AnyU8a](../modules/_types_.md#anyu8a) | [Call](../interfaces/_interfaces_runtime_types_.call.md) | undefined, `version`: number): *ExtrinsicVx | [ExtrinsicUnknown](../interfaces/_interfaces_runtime_types_.extrinsicunknown.md)*
 
-*Defined in [primitive/Extrinsic/Extrinsic.ts:71](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L71)*
+*Defined in [primitive/Extrinsic/Extrinsic.ts:71](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/primitive/Extrinsic/Extrinsic.ts#L71)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
+`registry` | [Registry](../interfaces/_types_.registry.md) | - |
 `value` | [Extrinsic](_primitive_extrinsic_extrinsic_.extrinsic.md) &#124; ExtrinsicValue &#124; [AnyU8a](../modules/_types_.md#anyu8a) &#124; [Call](../interfaces/_interfaces_runtime_types_.call.md) &#124; undefined | - |
 `version` | number |  DEFAULT_VERSION |
 

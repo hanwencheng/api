@@ -12,9 +12,9 @@
 
 ###  toV8
 
-▸ **toV8**(`__namedParameters`: object): *[MetadataV8](../classes/_metadata_v8_metadata_.metadatav8.md)*
+▸ **toV8**(`registry`: Registry, `__namedParameters`: object): *[MetadataV8](../classes/_metadata_v8_metadata_.metadatav8.md)*
 
-*Defined in [Metadata/v7/toV8.ts:12](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Metadata/v7/toV8.ts#L12)*
+*Defined in [Metadata/v7/toV8.ts:14](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v7/toV8.ts#L14)*
 
 Convert from MetadataV7 to MetadataV8
 
@@ -22,6 +22,7 @@ Convert from MetadataV7 to MetadataV8
 
 Name | Type |
 ------ | ------ |
+`registry` | Registry |
 `__namedParameters` | object |
 
 **Returns:** *[MetadataV8](../classes/_metadata_v8_metadata_.metadatav8.md)*

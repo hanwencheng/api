@@ -12,14 +12,15 @@
 
 ###  validateTypes
 
-▸ **validateTypes**(`types`: string[], `throwError`: boolean): *void*
+▸ **validateTypes**(`registry`: Registry, `types`: string[], `throwError`: boolean): *void*
 
-*Defined in [Metadata/util/validateTypes.ts:39](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Metadata/util/validateTypes.ts#L39)*
+*Defined in [Metadata/util/validateTypes.ts:40](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/util/validateTypes.ts#L40)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
+`registry` | Registry |
 `types` | string[] |
 `throwError` | boolean |
 

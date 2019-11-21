@@ -28,6 +28,7 @@ Set
 * [isTip](_interfaces_balances_types_.withdrawreasons.md#istip)
 * [isTransactionPayment](_interfaces_balances_types_.withdrawreasons.md#istransactionpayment)
 * [isTransfer](_interfaces_balances_types_.withdrawreasons.md#istransfer)
+* [registry](_interfaces_balances_types_.withdrawreasons.md#registry)
 * [size](_interfaces_balances_types_.withdrawreasons.md#size)
 
 ### Accessors
@@ -64,16 +65,17 @@ Set
 
 ###  constructor
 
-\+ **new WithdrawReasons**(`setValues`: SetValues, `value?`: string[] | Set‹string› | Uint8Array | number): *[WithdrawReasons](_interfaces_balances_types_.withdrawreasons.md)*
+\+ **new WithdrawReasons**(`registry`: [Registry](_types_.registry.md), `setValues`: SetValues, `value?`: string[] | Set‹string› | Uint8Array | number): *[WithdrawReasons](_interfaces_balances_types_.withdrawreasons.md)*
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[constructor](../classes/_codec_set_.codecset.md#constructor)*
 
-*Defined in [codec/Set.ts:23](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L23)*
+*Defined in [codec/Set.ts:25](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L25)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
+`registry` | [Registry](_types_.registry.md) |
 `setValues` | SetValues |
 `value?` | string[] &#124; Set‹string› &#124; Uint8Array &#124; number |
 
@@ -95,7 +97,7 @@ ___
 
 • **isFee**: *boolean*
 
-*Defined in [interfaces/balances/types.ts:38](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/interfaces/balances/types.ts#L38)*
+*Defined in [interfaces/balances/types.ts:38](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/interfaces/balances/types.ts#L38)*
 
 boolean
 
@@ -105,7 +107,7 @@ ___
 
 • **isReserve**: *boolean*
 
-*Defined in [interfaces/balances/types.ts:36](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/interfaces/balances/types.ts#L36)*
+*Defined in [interfaces/balances/types.ts:36](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/interfaces/balances/types.ts#L36)*
 
 boolean
 
@@ -115,7 +117,7 @@ ___
 
 • **isTip**: *boolean*
 
-*Defined in [interfaces/balances/types.ts:40](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/interfaces/balances/types.ts#L40)*
+*Defined in [interfaces/balances/types.ts:40](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/interfaces/balances/types.ts#L40)*
 
 boolean
 
@@ -125,7 +127,7 @@ ___
 
 • **isTransactionPayment**: *boolean*
 
-*Defined in [interfaces/balances/types.ts:32](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/interfaces/balances/types.ts#L32)*
+*Defined in [interfaces/balances/types.ts:32](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/interfaces/balances/types.ts#L32)*
 
 boolean
 
@@ -135,9 +137,19 @@ ___
 
 • **isTransfer**: *boolean*
 
-*Defined in [interfaces/balances/types.ts:34](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/interfaces/balances/types.ts#L34)*
+*Defined in [interfaces/balances/types.ts:34](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/interfaces/balances/types.ts#L34)*
 
 boolean
+
+___
+
+###  registry
+
+• **registry**: *[Registry](_types_.registry.md)*
+
+*Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[registry](../classes/_codec_set_.codecset.md#registry)*
+
+*Defined in [codec/Set.ts:23](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L23)*
 
 ___
 
@@ -157,7 +169,7 @@ Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.coll
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[encodedLength](../classes/_codec_set_.codecset.md#encodedlength)*
 
-*Defined in [codec/Set.ts:101](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L101)*
+*Defined in [codec/Set.ts:104](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L104)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -171,7 +183,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[hash](../classes/_codec_set_.codecset.md#hash)*
 
-*Defined in [codec/Set.ts:108](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L108)*
+*Defined in [codec/Set.ts:111](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L111)*
 
 **`description`** returns a hash of the contents
 
@@ -185,7 +197,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[isEmpty](../classes/_codec_set_.codecset.md#isempty)*
 
-*Defined in [codec/Set.ts:115](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L115)*
+*Defined in [codec/Set.ts:118](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L118)*
 
 **`description`** true is the Set contains no values
 
@@ -199,7 +211,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[strings](../classes/_codec_set_.codecset.md#strings)*
 
-*Defined in [codec/Set.ts:122](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L122)*
+*Defined in [codec/Set.ts:125](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L125)*
 
 **`description`** The actual set values as a string[]
 
@@ -213,7 +225,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[valueEncoded](../classes/_codec_set_.codecset.md#valueencoded)*
 
-*Defined in [codec/Set.ts:129](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L129)*
+*Defined in [codec/Set.ts:132](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L132)*
 
 **`description`** The encoded value for the set members
 
@@ -243,7 +255,7 @@ ___
 
 *Overrides void*
 
-*Defined in [codec/Set.ts:136](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L136)*
+*Defined in [codec/Set.ts:139](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L139)*
 
 **`description`** adds a value to the Set (extended to allow for validity checking)
 
@@ -307,7 +319,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[eq](../classes/_codec_set_.codecset.md#eq)*
 
-*Defined in [codec/Set.ts:149](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L149)*
+*Defined in [codec/Set.ts:152](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L152)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -387,7 +399,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[toHex](../classes/_codec_set_.codecset.md#tohex)*
 
-*Defined in [codec/Set.ts:165](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L165)*
+*Defined in [codec/Set.ts:168](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L168)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -401,7 +413,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[toJSON](../classes/_codec_set_.codecset.md#tojson)*
 
-*Defined in [codec/Set.ts:172](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L172)*
+*Defined in [codec/Set.ts:175](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L175)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -415,7 +427,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[toNumber](../classes/_codec_set_.codecset.md#tonumber)*
 
-*Defined in [codec/Set.ts:179](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L179)*
+*Defined in [codec/Set.ts:182](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L182)*
 
 **`description`** The encoded value for the set members
 
@@ -429,7 +441,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[toRawType](../classes/_codec_set_.codecset.md#torawtype)*
 
-*Defined in [codec/Set.ts:186](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L186)*
+*Defined in [codec/Set.ts:189](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L189)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -443,7 +455,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[toString](../classes/_codec_set_.codecset.md#tostring)*
 
-*Defined in [codec/Set.ts:194](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L194)*
+*Defined in [codec/Set.ts:197](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L197)*
 
 **`description`** Returns the string representation of the value
 
@@ -457,7 +469,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[toU8a](../classes/_codec_set_.codecset.md#tou8a)*
 
-*Defined in [codec/Set.ts:203](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L203)*
+*Defined in [codec/Set.ts:206](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L206)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -491,7 +503,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[decodeSet](../classes/_codec_set_.codecset.md#static-decodeset)*
 
-*Defined in [codec/Set.ts:31](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L31)*
+*Defined in [codec/Set.ts:34](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L34)*
 
 **Parameters:**
 
@@ -510,7 +522,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[encodeSet](../classes/_codec_set_.codecset.md#static-encodeset)*
 
-*Defined in [codec/Set.ts:71](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L71)*
+*Defined in [codec/Set.ts:74](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L74)*
 
 **Parameters:**
 
@@ -529,7 +541,7 @@ ___
 
 *Inherited from [CodecSet](../classes/_codec_set_.codecset.md).[with](../classes/_codec_set_.codecset.md#static-with)*
 
-*Defined in [codec/Set.ts:77](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Set.ts#L77)*
+*Defined in [codec/Set.ts:80](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Set.ts#L80)*
 
 **Parameters:**
 

@@ -4,20 +4,22 @@
 
 ## Index
 
-### Object literals
+### Functions
 
-* [storage](_decorated_storage_frommetadata_storage_.md#const-storage)
+* [getStorage](_decorated_storage_frommetadata_storage_.md#getstorage)
 
-## Object literals
+## Functions
 
-### `Const` storage
+###  getStorage
 
-### ▪ **storage**: *object*
+▸ **getStorage**(`registry`: Registry): *[Storage](../interfaces/_decorated_types_.storage.md)*
 
-*Defined in [Decorated/storage/fromMetadata/storage.ts:8](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Decorated/storage/fromMetadata/storage.ts#L8)*
+*Defined in [Decorated/storage/fromMetadata/storage.ts:11](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Decorated/storage/fromMetadata/storage.ts#L11)*
 
-###  substrate
+**Parameters:**
 
-• **substrate**: *["Decorated/storage/fromMetadata/substrate"](_decorated_storage_frommetadata_substrate_.md)*
+Name | Type |
+------ | ------ |
+`registry` | Registry |
 
-*Defined in [Decorated/storage/fromMetadata/storage.ts:9](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Decorated/storage/fromMetadata/storage.ts#L9)*
+**Returns:** *[Storage](../interfaces/_decorated_types_.storage.md)*

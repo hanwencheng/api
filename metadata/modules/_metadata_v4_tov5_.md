@@ -12,9 +12,9 @@
 
 ###  toV5
 
-▸ **toV5**(`__namedParameters`: object): *[MetadataV5](../classes/_metadata_v5_metadata_.metadatav5.md)*
+▸ **toV5**(`registry`: Registry, `__namedParameters`: object): *[MetadataV5](../classes/_metadata_v5_metadata_.metadatav5.md)*
 
-*Defined in [Metadata/v4/toV5.ts:62](https://github.com/polkadot-js/api/blob/74e20864a6/packages/metadata/src/Metadata/v4/toV5.ts#L62)*
+*Defined in [Metadata/v4/toV5.ts:64](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v4/toV5.ts#L64)*
 
 Convert from MetadataV4 to MetadataV5
 See https://github.com/paritytech/substrate/pull/2836/files for details
@@ -23,6 +23,7 @@ See https://github.com/paritytech/substrate/pull/2836/files for details
 
 Name | Type |
 ------ | ------ |
+`registry` | Registry |
 `__namedParameters` | object |
 
 **Returns:** *[MetadataV5](../classes/_metadata_v5_metadata_.metadatav5.md)*

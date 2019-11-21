@@ -20,14 +20,15 @@
 
 ###  constructor
 
-\+ **new EnumConstructor**(`value?`: any, `index?`: undefined | number): *T*
+\+ **new EnumConstructor**(`registry`: [Registry](_types_.registry.md), `value?`: any, `index?`: undefined | number): *T*
 
-*Defined in [codec/Enum.ts:15](https://github.com/polkadot-js/api/blob/74e20864a6/packages/types/src/codec/Enum.ts#L15)*
+*Defined in [codec/Enum.ts:15](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L15)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
+`registry` | [Registry](_types_.registry.md) |
 `value?` | any |
 `index?` | undefined &#124; number |
 
