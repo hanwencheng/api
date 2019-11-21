@@ -58,7 +58,7 @@
 
 *Overrides void*
 
-*Defined in [Metadata/v5/Storage.ts:16](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v5/Storage.ts#L16)*
+*Defined in [Metadata/v5/Storage.ts:16](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v5/Storage.ts#L16)*
 
 **Parameters:**
 
@@ -78,7 +78,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Base.ts#L16)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Base.ts#L16)*
 
 ## Accessors
 
@@ -86,7 +86,7 @@ Name | Type |
 
 • **get asDoubleMap**(): *DoubleMapTypeV5*
 
-*Defined in [Metadata/v5/Storage.ts:28](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v5/Storage.ts#L28)*
+*Defined in [Metadata/v5/Storage.ts:28](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v5/Storage.ts#L28)*
 
 **`description`** The value as a mapped value
 
@@ -98,7 +98,7 @@ ___
 
 • **get asMap**(): *MapTypeV5*
 
-*Defined in [Metadata/v5/Storage.ts:37](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v5/Storage.ts#L37)*
+*Defined in [Metadata/v5/Storage.ts:37](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v5/Storage.ts#L37)*
 
 **`description`** The value as a mapped value
 
@@ -110,7 +110,7 @@ ___
 
 • **get asType**(): *PlainTypeV5*
 
-*Defined in [Metadata/v5/Storage.ts:46](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v5/Storage.ts#L46)*
+*Defined in [Metadata/v5/Storage.ts:46](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v5/Storage.ts#L46)*
 
 **`description`** The value as a [Type](_metadata_v5_storage_.storagefunctionmetadata.md#type) value
 
@@ -126,7 +126,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:173](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L173)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:173](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L173)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -140,7 +140,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Base.ts#L35)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Base.ts#L35)*
 
 **`description`** returns a hash of the contents
 
@@ -154,7 +154,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:180](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L180)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:180](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L180)*
 
 **`description`** The index of the metadata value
 
@@ -166,7 +166,7 @@ ___
 
 • **get isDoubleMap**(): *boolean*
 
-*Defined in [Metadata/v5/Storage.ts:55](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v5/Storage.ts#L55)*
+*Defined in [Metadata/v5/Storage.ts:55](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v5/Storage.ts#L55)*
 
 **`description`** `true` if the storage entry is a doublemap
 
@@ -180,7 +180,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Base.ts#L42)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Base.ts#L42)*
 
 **`description`** Checks if the value is an empty value
 
@@ -192,7 +192,7 @@ ___
 
 • **get isMap**(): *boolean*
 
-*Defined in [Metadata/v5/Storage.ts:62](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v5/Storage.ts#L62)*
+*Defined in [Metadata/v5/Storage.ts:62](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v5/Storage.ts#L62)*
 
 **`description`** `true` if the storage entry is a map
 
@@ -206,7 +206,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:187](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L187)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:187](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L187)*
 
 **`description`** Checks if the Enum points to a [[Null]] type
 
@@ -220,7 +220,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:194](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L194)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:194](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L194)*
 
 **`description`** Checks if the Enum points to a [[Null]] type (deprecated, use isNone)
 
@@ -232,7 +232,7 @@ ___
 
 • **get isPlainType**(): *boolean*
 
-*Defined in [Metadata/v5/Storage.ts:69](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v5/Storage.ts#L69)*
+*Defined in [Metadata/v5/Storage.ts:69](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v5/Storage.ts#L69)*
 
 **`description`** `true` if the storage entry is a plain type
 
@@ -246,7 +246,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:201](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L201)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:201](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L201)*
 
 **`description`** The name of the type this enum value represents
 
@@ -260,7 +260,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:208](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L208)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:208](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L208)*
 
 **`description`** The value of the enum
 
@@ -276,7 +276,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:215](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L215)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:215](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L215)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -298,7 +298,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:238](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L238)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:238](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L238)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -314,7 +314,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:245](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L245)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:245](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L245)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -328,7 +328,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:254](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L254)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:254](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L254)*
 
 **`description`** Returns the number representation for the value
 
@@ -344,7 +344,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:270](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L270)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:270](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L270)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -358,7 +358,7 @@ ___
 
 *Overrides void*
 
-*Defined in [Metadata/v5/Storage.ts:76](https://github.com/polkadot-js/api/blob/011e24bd49/packages/metadata/src/Metadata/v5/Storage.ts#L76)*
+*Defined in [Metadata/v5/Storage.ts:76](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v5/Storage.ts#L76)*
 
 **`description`** Returns the string representation of the value
 
@@ -374,7 +374,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:287](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L287)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:287](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L287)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -394,7 +394,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:137](https://github.com/polkadot-js/api/blob/011e24bd49/packages/types/src/codec/Enum.ts#L137)*
+*Defined in [/home/runner/work/api/api/packages/types/src/codec/Enum.ts:137](https://github.com/polkadot-js/api/blob/306857ae07/packages/types/src/codec/Enum.ts#L137)*
 
 **Parameters:**
 
