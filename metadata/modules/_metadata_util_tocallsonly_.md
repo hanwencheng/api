@@ -14,9 +14,9 @@
 
 ▸ **toCallsOnly**(`registry`: Registry, `__namedParameters`: object): *AnyJsonObject | string*
 
-*Defined in [Metadata/util/toCallsOnly.ts:12](https://github.com/polkadot-js/api/blob/3b758a0d64/packages/metadata/src/Metadata/util/toCallsOnly.ts#L12)*
+*Defined in [Metadata/util/toCallsOnly.ts:13](https://github.com/polkadot-js/api/blob/8b1a7a8584/packages/metadata/src/Metadata/util/toCallsOnly.ts#L13)*
 
-**`description`** Convert from MetadataV8 to a stripped representation of MetadataV8
+**`description`** Convert from MetadataLatest to a stripped representation of MetadataLatest
 
 **Parameters:**
 

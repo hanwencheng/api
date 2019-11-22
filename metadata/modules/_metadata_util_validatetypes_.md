@@ -14,7 +14,7 @@
 
 ▸ **validateTypes**(`registry`: Registry, `types`: string[], `throwError`: boolean): *void*
 
-*Defined in [Metadata/util/validateTypes.ts:40](https://github.com/polkadot-js/api/blob/3b758a0d64/packages/metadata/src/Metadata/util/validateTypes.ts#L40)*
+*Defined in [Metadata/util/validateTypes.ts:40](https://github.com/polkadot-js/api/blob/8b1a7a8584/packages/metadata/src/Metadata/util/validateTypes.ts#L40)*
 
 **Parameters:**
 

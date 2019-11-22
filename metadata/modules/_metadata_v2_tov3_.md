@@ -12,15 +12,15 @@
 
 ###  toV3
 
-▸ **toV3**(`registry`: Registry, `metadataV2`: [MetadataV2](../classes/_metadata_v2_metadata_.metadatav2.md)): *[MetadataV3](../classes/_metadata_v3_metadata_.metadatav3.md)*
+▸ **toV3**(`registry`: Registry, `metadataV2`: MetadataV2): *MetadataV3*
 
-*Defined in [Metadata/v2/toV3.ts:10](https://github.com/polkadot-js/api/blob/3b758a0d64/packages/metadata/src/Metadata/v2/toV3.ts#L10)*
+*Defined in [Metadata/v2/toV3.ts:10](https://github.com/polkadot-js/api/blob/8b1a7a8584/packages/metadata/src/Metadata/v2/toV3.ts#L10)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `registry` | Registry |
-`metadataV2` | [MetadataV2](../classes/_metadata_v2_metadata_.metadatav2.md) |
+`metadataV2` | MetadataV2 |
 
-**Returns:** *[MetadataV3](../classes/_metadata_v3_metadata_.metadatav3.md)*
+**Returns:** *MetadataV3*
