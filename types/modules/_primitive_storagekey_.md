@@ -11,3 +11,23 @@
 ### Interfaces
 
 * [StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md)
+
+### Functions
+
+* [unwrapStorageType](_primitive_storagekey_.md#unwrapstoragetype)
+
+## Functions
+
+###  unwrapStorageType
+
+▸ **unwrapStorageType**(`type`: StorageType): *string*
+
+*Defined in [primitive/StorageKey.ts:52](https://github.com/polkadot-js/api/blob/3b758a0d64/packages/types/src/primitive/StorageKey.ts#L52)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`type` | StorageType |
+
+**Returns:** *string*

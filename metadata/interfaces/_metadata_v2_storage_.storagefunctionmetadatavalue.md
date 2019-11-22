@@ -22,7 +22,7 @@
 
 • **documentation**: *Vec‹Text› | string[]*
 
-*Defined in [Metadata/v2/Storage.ts:77](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v2/Storage.ts#L77)*
+*Defined in [Metadata/v2/Storage.ts:62](https://github.com/polkadot-js/api/blob/3b758a0d64/packages/metadata/src/Metadata/v2/Storage.ts#L62)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **fallback**: *Bytes*
 
-*Defined in [Metadata/v2/Storage.ts:76](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v2/Storage.ts#L76)*
+*Defined in [Metadata/v2/Storage.ts:61](https://github.com/polkadot-js/api/blob/3b758a0d64/packages/metadata/src/Metadata/v2/Storage.ts#L61)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **modifier**: *StorageFunctionModifierV2 | AnyNumber*
 
-*Defined in [Metadata/v2/Storage.ts:74](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v2/Storage.ts#L74)*
+*Defined in [Metadata/v2/Storage.ts:59](https://github.com/polkadot-js/api/blob/3b758a0d64/packages/metadata/src/Metadata/v2/Storage.ts#L59)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **name**: *string | Text*
 
-*Defined in [Metadata/v2/Storage.ts:73](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v2/Storage.ts#L73)*
+*Defined in [Metadata/v2/Storage.ts:58](https://github.com/polkadot-js/api/blob/3b758a0d64/packages/metadata/src/Metadata/v2/Storage.ts#L58)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **type**: *[StorageFunctionType](../classes/_metadata_v2_storage_.storagefunctiontype.md)*
 
-*Defined in [Metadata/v2/Storage.ts:75](https://github.com/polkadot-js/api/blob/306857ae07/packages/metadata/src/Metadata/v2/Storage.ts#L75)*
+*Defined in [Metadata/v2/Storage.ts:60](https://github.com/polkadot-js/api/blob/3b758a0d64/packages/metadata/src/Metadata/v2/Storage.ts#L60)*
