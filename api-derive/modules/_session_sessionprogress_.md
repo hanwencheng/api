@@ -14,7 +14,7 @@
 
 ▸ **sessionProgress**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [session/sessionProgress.ts:14](https://github.com/polkadot-js/api/blob/e12f2f67c6/packages/api-derive/src/session/sessionProgress.ts#L14)*
+*Defined in [session/sessionProgress.ts:14](https://github.com/polkadot-js/api/blob/7f39c573ce/packages/api-derive/src/session/sessionProgress.ts#L14)*
 
 **Parameters:**
 

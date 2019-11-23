@@ -14,7 +14,7 @@
 
 ▸ **votingBalances**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [balances/votingBalances.ts:13](https://github.com/polkadot-js/api/blob/e12f2f67c6/packages/api-derive/src/balances/votingBalances.ts#L13)*
+*Defined in [balances/votingBalances.ts:13](https://github.com/polkadot-js/api/blob/7f39c573ce/packages/api-derive/src/balances/votingBalances.ts#L13)*
 
 **Parameters:**
 
