@@ -22,4 +22,4 @@
 
 • **TRANSACTION_VERSION**: *4* = 4
 
-*Defined in [primitive/Extrinsic/v4/Extrinsic.ts:15](https://github.com/polkadot-js/api/blob/fb4c840549/packages/types/src/primitive/Extrinsic/v4/Extrinsic.ts#L15)*
+*Defined in [primitive/Extrinsic/v4/Extrinsic.ts:15](https://github.com/polkadot-js/api/blob/2338ecc2d7/packages/types/src/primitive/Extrinsic/v4/Extrinsic.ts#L15)*

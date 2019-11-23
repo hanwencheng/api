@@ -23,7 +23,7 @@
 
 • **blockHash**: *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [types.ts:153](https://github.com/polkadot-js/api/blob/fb4c840549/packages/types/src/types.ts#L153)*
+*Defined in [types.ts:153](https://github.com/polkadot-js/api/blob/2338ecc2d7/packages/types/src/types.ts#L153)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **era**? : *[IExtrinsicEra](_types_.iextrinsicera.md)*
 
-*Defined in [types.ts:154](https://github.com/polkadot-js/api/blob/fb4c840549/packages/types/src/types.ts#L154)*
+*Defined in [types.ts:154](https://github.com/polkadot-js/api/blob/2338ecc2d7/packages/types/src/types.ts#L154)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **genesisHash**: *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [types.ts:155](https://github.com/polkadot-js/api/blob/fb4c840549/packages/types/src/types.ts#L155)*
+*Defined in [types.ts:155](https://github.com/polkadot-js/api/blob/2338ecc2d7/packages/types/src/types.ts#L155)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **nonce**: *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [types.ts:156](https://github.com/polkadot-js/api/blob/fb4c840549/packages/types/src/types.ts#L156)*
+*Defined in [types.ts:156](https://github.com/polkadot-js/api/blob/2338ecc2d7/packages/types/src/types.ts#L156)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **runtimeVersion**: *[RuntimeVersionInterface](_types_.runtimeversioninterface.md)*
 
-*Defined in [types.ts:157](https://github.com/polkadot-js/api/blob/fb4c840549/packages/types/src/types.ts#L157)*
+*Defined in [types.ts:157](https://github.com/polkadot-js/api/blob/2338ecc2d7/packages/types/src/types.ts#L157)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **tip**? : *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [types.ts:158](https://github.com/polkadot-js/api/blob/fb4c840549/packages/types/src/types.ts#L158)*
+*Defined in [types.ts:158](https://github.com/polkadot-js/api/blob/2338ecc2d7/packages/types/src/types.ts#L158)*
