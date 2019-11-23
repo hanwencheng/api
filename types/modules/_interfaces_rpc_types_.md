@@ -7,6 +7,7 @@
 ### Interfaces
 
 * [ApiId](../interfaces/_interfaces_rpc_types_.apiid.md)
+* [BlockHash](../interfaces/_interfaces_rpc_types_.blockhash.md)
 * [ChainProperties](../interfaces/_interfaces_rpc_types_.chainproperties.md)
 * [ExtrinsicOrHash](../interfaces/_interfaces_rpc_types_.extrinsicorhash.md)
 * [ExtrinsicStatus](../interfaces/_interfaces_rpc_types_.extrinsicstatus.md)

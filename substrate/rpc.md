@@ -75,22 +75,22 @@ ___
 
 _Retrieval of chain data_
 
-### getBlock(hash?: `Hash`): `SignedBlock`
+### getBlock(hash?: `BlockHash`): `SignedBlock`
 - **jsonrpc**: chain_getBlock
 - **interface**: api.rpc.chain.getBlock
 - **summary**: Get header and body of a relay chain block
 
-### getBlockHash(blockNumber?: `BlockNumber`): `Hash`
+### getBlockHash(blockNumber?: `BlockNumber`): `BlockHash`
 - **jsonrpc**: chain_getBlockHash
 - **interface**: api.rpc.chain.getBlockHash
 - **summary**: Get the block hash for a specific block
 
-### getFinalizedHead(): `Hash`
+### getFinalizedHead(): `BlockHash`
 - **jsonrpc**: chain_getFinalizedHead
 - **interface**: api.rpc.chain.getFinalizedHead
 - **summary**: Get hash of the last finalized block in the canon chain
 
-### getHeader(hash?: `Hash`): `Header`
+### getHeader(hash?: `BlockHash`): `Header`
 - **jsonrpc**: chain_getHeader
 - **interface**: api.rpc.chain.getHeader
 - **summary**: Retrieves the header for a specific block
@@ -112,10 +112,15 @@ ___
 
 _(Optional) Methods that performs actions on contracts_
 
-### call(callRequest: `ContractCallRequest`, at?: `Hash`): `ContractExecResult`
+### call(callRequest: `ContractCallRequest`, at?: `BlockHash`): `ContractExecResult`
 - **jsonrpc**: contracts_call
 - **interface**: api.rpc.contracts.call
 - **summary**: Executes a call to a contract
+
+### getStorage(address: `AccountId`, key: `H256`, at?: `BlockHash`): `Option<Bytes>`
+- **jsonrpc**: contracts_getStorage
+- **interface**: api.rpc.contracts.getStorage
+- **summary**: Returns the value under a specified storage key in a contract
 
 ___
 
@@ -124,7 +129,7 @@ ___
 
 _Methods that retrieves payment information, e.g. fee calculations_
 
-### queryInfo(extrinsic: `Bytes`, hash?: `Hash`): `RuntimeDispatchInfo`
+### queryInfo(extrinsic: `Bytes`, at?: `BlockHash`): `RuntimeDispatchInfo`
 - **jsonrpc**: payment_queryInfo
 - **interface**: api.rpc.payment.queryInfo
 - **summary**: Retrieves the fee information for an encoded extrinsic
@@ -148,62 +153,62 @@ ___
 
 _Query of state_
 
-### call(method: `Text`, data: `Bytes`, block?: `Hash`): `Bytes`
+### call(method: `Text`, data: `Bytes`, at?: `BlockHash`): `Bytes`
 - **jsonrpc**: state_call
 - **interface**: api.rpc.state.call
 - **summary**: Perform a call to a builtin on the chain
 
-### getChildKeys(childStorageKey: `StorageKey`, key: `StorageKey`, block?: `Hash`): `Vec<StorageKey>`
+### getChildKeys(childStorageKey: `StorageKey`, key: `StorageKey`, at?: `BlockHash`): `Vec<StorageKey>`
 - **jsonrpc**: state_getChildKeys
 - **interface**: api.rpc.state.getChildKeys
 - **summary**: Retrieves the keys with prefix of a specific child storage
 
-### getChildStorage(childStorageKey: `StorageKey`, key: `StorageKey`, block?: `Hash`): `StorageData`
+### getChildStorage(childStorageKey: `StorageKey`, key: `StorageKey`, at?: `BlockHash`): `StorageData`
 - **jsonrpc**: state_getChildStorage
 - **interface**: api.rpc.state.getChildStorage
 - **summary**: Retrieves the child storage for a key
 
-### getChildStorageHash(childStorageKey: `StorageKey`, key: `StorageKey`, block?: `Hash`): `Hash`
+### getChildStorageHash(childStorageKey: `StorageKey`, key: `StorageKey`, at?: `BlockHash`): `Hash`
 - **jsonrpc**: state_getChildStorageHash
 - **interface**: api.rpc.state.getChildStorageHash
 - **summary**: Retrieves the child storage hash
 
-### getChildStorageSize(childStorageKey: `StorageKey`, key: `StorageKey`, block?: `Hash`): `u64`
+### getChildStorageSize(childStorageKey: `StorageKey`, key: `StorageKey`, at?: `BlockHash`): `u64`
 - **jsonrpc**: state_getChildStorageSize
 - **interface**: api.rpc.state.getChildStorageSize
 - **summary**: Retrieves the child storage size
 
-### getKeys(key: `StorageKey`, block?: `Hash`): `Vec<StorageKey>`
+### getKeys(key: `StorageKey`, at?: `BlockHash`): `Vec<StorageKey>`
 - **jsonrpc**: state_getKeys
 - **interface**: api.rpc.state.getKeys
 - **summary**: Retrieves the keys with a certain prefix
 
-### getMetadata(block?: `Hash`): `Metadata`
+### getMetadata(at?: `BlockHash`): `Metadata`
 - **jsonrpc**: state_getMetadata
 - **interface**: api.rpc.state.getMetadata
 - **summary**: Returns the runtime metadata
 
-### getRuntimeVersion(hash?: `Hash`): `RuntimeVersion`
+### getRuntimeVersion(at?: `BlockHash`): `RuntimeVersion`
 - **jsonrpc**: state_getRuntimeVersion
 - **interface**: api.rpc.state.getRuntimeVersion
 - **summary**: Get the runtime version
 
-### getStorage(key: `StorageKey`, block?: `Hash`): `StorageData`
+### getStorage(key: `StorageKey`, at?: `BlockHash`): `StorageData`
 - **jsonrpc**: state_getStorage
 - **interface**: api.rpc.state.getStorage
 - **summary**: Retrieves the storage for a key
 
-### getStorageHash(key: `StorageKey`, block?: `Hash`): `Hash`
+### getStorageHash(key: `StorageKey`, at?: `BlockHash`): `Hash`
 - **jsonrpc**: state_getStorageHash
 - **interface**: api.rpc.state.getStorageHash
 - **summary**: Retrieves the storage hash
 
-### getStorageSize(key: `StorageKey`, block?: `Hash`): `u64`
+### getStorageSize(key: `StorageKey`, at?: `BlockHash`): `u64`
 - **jsonrpc**: state_getStorageSize
 - **interface**: api.rpc.state.getStorageSize
 - **summary**: Retrieves the storage size
 
-### queryStorage(keys: `Vec<StorageKey>`, startBlock: `Hash`, block?: `Hash`): `Vec<StorageChangeSet>`
+### queryStorage(keys: `Vec<StorageKey>`, startBlock: `Hash`, at?: `BlockHash`): `Vec<StorageChangeSet>`
 - **jsonrpc**: state_queryStorage
 - **interface**: api.rpc.state.queryStorage
 - **summary**: Query historical storage entries (by key) starting from a start block
