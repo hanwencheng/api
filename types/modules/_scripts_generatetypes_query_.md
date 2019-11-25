@@ -14,6 +14,6 @@
 
 ▸ **generateQuery**(): *void*
 
-*Defined in [scripts/generateTypes/query.ts:140](https://github.com/polkadot-js/api/blob/db59fbff25/packages/types/src/scripts/generateTypes/query.ts#L140)*
+*Defined in [scripts/generateTypes/query.ts:140](https://github.com/polkadot-js/api/blob/35c63a52c8/packages/types/src/scripts/generateTypes/query.ts#L140)*
 
 **Returns:** *void*

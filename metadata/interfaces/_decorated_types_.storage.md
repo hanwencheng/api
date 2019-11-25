@@ -22,7 +22,7 @@
 
 • **substrate**: *object*
 
-*Defined in [Decorated/types.ts:25](https://github.com/polkadot-js/api/blob/db59fbff25/packages/metadata/src/Decorated/types.ts#L25)*
+*Defined in [Decorated/types.ts:25](https://github.com/polkadot-js/api/blob/35c63a52c8/packages/metadata/src/Decorated/types.ts#L25)*
 
 #### Type declaration:
 
