@@ -14,6 +14,6 @@
 
 ▸ **generateConsts**(): *void*
 
-*Defined in [scripts/generateTypes/consts.ts:86](https://github.com/polkadot-js/api/blob/35c63a52c8/packages/types/src/scripts/generateTypes/consts.ts#L86)*
+*Defined in [scripts/generateTypes/consts.ts:86](https://github.com/polkadot-js/api/blob/26b6a59725/packages/types/src/scripts/generateTypes/consts.ts#L86)*
 
 **Returns:** *void*
