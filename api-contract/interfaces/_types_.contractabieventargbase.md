@@ -22,4 +22,4 @@
 
 • **indexed**: *boolean*
 
-*Defined in [types.ts:115](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-contract/src/types.ts#L115)*
+*Defined in [api-contract/src/types.ts:115](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-contract/src/types.ts#L115)*

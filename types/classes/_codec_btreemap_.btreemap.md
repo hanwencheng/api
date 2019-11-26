@@ -63,7 +63,7 @@
 
 \+ **new BTreeMap**(`registry`: [Registry](../interfaces/_types_.registry.md), `keyType`: [Constructor](../interfaces/_types_.constructor.md)‹K› | [InterfaceTypes](../modules/_types_.md#interfacetypes), `valType`: [Constructor](../interfaces/_types_.constructor.md)‹V› | [InterfaceTypes](../modules/_types_.md#interfacetypes), `rawValue`: any): *[BTreeMap](_codec_btreemap_.btreemap.md)*
 
-*Defined in [codec/BTreeMap.ts:19](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L19)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:19](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L19)*
 
 **Parameters:**
 
@@ -84,7 +84,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130
+Defined in node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md).[registry](../interfaces/_types_.codec.md#registry)*
 
-*Defined in [codec/BTreeMap.ts:15](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L15)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:15](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L15)*
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:28
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:28
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 ▪ **Map**: *MapConstructor*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:36
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:36
 
 ## Accessors
 
@@ -120,7 +120,7 @@ Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.coll
 
 • **get encodedLength**(): *number*
 
-*Defined in [codec/BTreeMap.ts:108](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L108)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:108](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L108)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -132,7 +132,7 @@ ___
 
 • **get hash**(): *[IHash](../interfaces/_types_.ihash.md)*
 
-*Defined in [codec/BTreeMap.ts:121](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L121)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:121](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L121)*
 
 **`description`** Returns a hash of the value
 
@@ -144,7 +144,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [codec/BTreeMap.ts:128](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L128)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:128](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L128)*
 
 **`description`** Checks if the value is an empty value
 
@@ -158,7 +158,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:121
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:121
 
 Returns an iterable of entries in the map.
 
@@ -172,7 +172,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:22
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:22
 
 **Returns:** *void*
 
@@ -184,7 +184,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:23
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:23
 
 **Parameters:**
 
@@ -202,7 +202,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:126
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:126
 
 Returns an iterable of key, value pairs for every entry in the map.
 
@@ -216,7 +216,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/BTreeMap.ts:135](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L135)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:135](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L135)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -236,7 +236,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:24
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:24
 
 **Parameters:**
 
@@ -264,7 +264,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:25
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:25
 
 **Parameters:**
 
@@ -282,7 +282,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:26
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:26
 
 **Parameters:**
 
@@ -300,7 +300,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:131
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:131
 
 Returns an iterable of keys in the map
 
@@ -314,7 +314,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:27
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:27
 
 **Parameters:**
 
@@ -331,7 +331,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [codec/BTreeMap.ts:142](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L142)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:142](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L142)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -345,7 +345,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/BTreeMap.ts:149](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L149)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:149](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L149)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -359,7 +359,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/BTreeMap.ts:162](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L162)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:162](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L162)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -373,7 +373,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/BTreeMap.ts:169](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L169)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:169](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L169)*
 
 **`description`** Returns the string representation of the value
 
@@ -387,7 +387,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [codec/BTreeMap.ts:177](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L177)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:177](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L177)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -407,7 +407,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:136
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:136
 
 Returns an iterable of values in the map
 
@@ -419,7 +419,7 @@ ___
 
 ▸ **with**<**K**, **V**>(`keyType`: [Constructor](../interfaces/_types_.constructor.md)‹K› | [InterfaceTypes](../modules/_types_.md#interfacetypes), `valType`: [Constructor](../interfaces/_types_.constructor.md)‹V› | [InterfaceTypes](../modules/_types_.md#interfacetypes)): *[Constructor](../interfaces/_types_.constructor.md)‹[BTreeMap](_codec_btreemap_.btreemap.md)‹K, V››*
 
-*Defined in [codec/BTreeMap.ts:97](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/BTreeMap.ts#L97)*
+*Defined in [packages/types/src/codec/BTreeMap.ts:97](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/BTreeMap.ts#L97)*
 
 **Type parameters:**
 

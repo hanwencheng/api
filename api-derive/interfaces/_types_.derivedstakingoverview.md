@@ -25,7 +25,7 @@
 
 • **currentElected**: *AccountId[]*
 
-*Defined in [types.ts:145](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-derive/src/types.ts#L145)*
+*Defined in [packages/api-derive/src/types.ts:145](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-derive/src/types.ts#L145)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 *Inherited from [DeriveSessionIndexes](_types_.derivesessionindexes.md).[currentEra](_types_.derivesessionindexes.md#currentera)*
 
-*Defined in [types.ts:91](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-derive/src/types.ts#L91)*
+*Defined in [packages/api-derive/src/types.ts:91](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-derive/src/types.ts#L91)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 *Inherited from [DeriveSessionIndexes](_types_.derivesessionindexes.md).[currentIndex](_types_.derivesessionindexes.md#currentindex)*
 
-*Defined in [types.ts:92](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-derive/src/types.ts#L92)*
+*Defined in [packages/api-derive/src/types.ts:92](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-derive/src/types.ts#L92)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **eraPoints**: *EraPoints*
 
-*Defined in [types.ts:146](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-derive/src/types.ts#L146)*
+*Defined in [packages/api-derive/src/types.ts:146](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-derive/src/types.ts#L146)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 *Inherited from [DeriveSessionIndexes](_types_.derivesessionindexes.md).[validatorCount](_types_.derivesessionindexes.md#validatorcount)*
 
-*Defined in [types.ts:93](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-derive/src/types.ts#L93)*
+*Defined in [packages/api-derive/src/types.ts:93](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-derive/src/types.ts#L93)*
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 • **validators**: *AccountId[]*
 
-*Defined in [types.ts:147](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-derive/src/types.ts#L147)*
+*Defined in [packages/api-derive/src/types.ts:147](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-derive/src/types.ts#L147)*

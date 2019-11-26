@@ -18,4 +18,4 @@
 
 • **args**: *[ContractABIEventArg](_types_.contractabieventarg.md)[]*
 
-*Defined in [types.ts:129](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-contract/src/types.ts#L129)*
+*Defined in [api-contract/src/types.ts:129](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-contract/src/types.ts#L129)*

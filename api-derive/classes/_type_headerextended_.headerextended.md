@@ -83,7 +83,7 @@ A [[Block]] header with an additional `author` field that indicates the block au
 
 *Overrides void*
 
-*Defined in [type/HeaderExtended.ts:20](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-derive/src/type/HeaderExtended.ts#L20)*
+*Defined in [packages/api-derive/src/type/HeaderExtended.ts:20](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-derive/src/type/HeaderExtended.ts#L20)*
 
 **Parameters:**
 
@@ -103,7 +103,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130
+Defined in node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:130
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/interfaces/runtime/types.ts:127](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/interfaces/runtime/types.ts#L127)*
+*Defined in [packages/types/src/interfaces/runtime/types.ts:127](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/interfaces/runtime/types.ts#L127)*
 
 Digest
 
@@ -125,7 +125,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/interfaces/runtime/types.ts:125](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/interfaces/runtime/types.ts#L125)*
+*Defined in [packages/types/src/interfaces/runtime/types.ts:125](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/interfaces/runtime/types.ts#L125)*
 
 Hash
 
@@ -137,7 +137,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/interfaces/runtime/types.ts:121](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/interfaces/runtime/types.ts#L121)*
+*Defined in [packages/types/src/interfaces/runtime/types.ts:121](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/interfaces/runtime/types.ts#L121)*
 
 Compact<BlockNumber>
 
@@ -149,7 +149,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/interfaces/runtime/types.ts:119](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/interfaces/runtime/types.ts#L119)*
+*Defined in [packages/types/src/interfaces/runtime/types.ts:119](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/interfaces/runtime/types.ts#L119)*
 
 Hash
 
@@ -161,7 +161,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:34](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L34)*
+*Defined in [packages/types/src/codec/Struct.ts:34](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L34)*
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:28
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:28
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/interfaces/runtime/types.ts:123](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/interfaces/runtime/types.ts#L123)*
+*Defined in [packages/types/src/interfaces/runtime/types.ts:123](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/interfaces/runtime/types.ts#L123)*
 
 Hash
 
@@ -193,7 +193,7 @@ Hash
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:158](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L158)*
+*Defined in [packages/types/src/codec/Struct.ts:158](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L158)*
 
 **`description`** Returns the Type description to sthe structure
 
@@ -205,7 +205,7 @@ ___
 
 • **get author**(): *AccountId | undefined*
 
-*Defined in [type/HeaderExtended.ts:53](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-derive/src/type/HeaderExtended.ts#L53)*
+*Defined in [packages/api-derive/src/type/HeaderExtended.ts:53](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-derive/src/type/HeaderExtended.ts#L53)*
 
 **`description`** Convenience method, returns the author for the block
 
@@ -219,7 +219,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:171](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L171)*
+*Defined in [packages/types/src/codec/Struct.ts:171](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L171)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -233,7 +233,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:182](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L182)*
+*Defined in [packages/types/src/codec/Struct.ts:182](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L182)*
 
 **`description`** returns a hash of the contents
 
@@ -247,7 +247,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:143](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L143)*
+*Defined in [packages/types/src/codec/Struct.ts:143](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L143)*
 
 **`description`** Checks if the value is an empty value
 
@@ -261,7 +261,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:121
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:121
 
 Returns an iterable of entries in the map.
 
@@ -275,7 +275,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:22
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:22
 
 **Returns:** *void*
 
@@ -287,7 +287,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:23
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:23
 
 **Parameters:**
 
@@ -305,7 +305,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:126
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:126
 
 Returns an iterable of key, value pairs for every entry in the map.
 
@@ -319,7 +319,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:189](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L189)*
+*Defined in [packages/types/src/codec/Struct.ts:189](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L189)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -339,7 +339,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:24
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:24
 
 **Parameters:**
 
@@ -369,7 +369,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:197](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L197)*
+*Defined in [packages/types/src/codec/Struct.ts:197](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L197)*
 
 **`description`** Returns a specific names entry in the structure
 
@@ -389,7 +389,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:204](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L204)*
+*Defined in [packages/types/src/codec/Struct.ts:204](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L204)*
 
 **`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -409,7 +409,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:26
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:26
 
 **Parameters:**
 
@@ -427,7 +427,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:131
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:131
 
 Returns an iterable of keys in the map
 
@@ -441,7 +441,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.collection.d.ts:27
+Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:27
 
 **Parameters:**
 
@@ -460,7 +460,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:211](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L211)*
+*Defined in [packages/types/src/codec/Struct.ts:211](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L211)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
@@ -474,7 +474,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:218](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L218)*
+*Defined in [packages/types/src/codec/Struct.ts:218](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L218)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -488,7 +488,7 @@ ___
 
 *Overrides void*
 
-*Defined in [type/HeaderExtended.ts:60](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api-derive/src/type/HeaderExtended.ts#L60)*
+*Defined in [packages/api-derive/src/type/HeaderExtended.ts:60](https://github.com/polkadot-js/api/blob/aaff64404a/packages/api-derive/src/type/HeaderExtended.ts#L60)*
 
 **`description`** Creates the JSON representation
 
@@ -502,7 +502,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L249)*
+*Defined in [packages/types/src/codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L249)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -516,7 +516,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L258)*
+*Defined in [packages/types/src/codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L258)*
 
 **`description`** Returns the string representation of the value
 
@@ -530,7 +530,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:266](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L266)*
+*Defined in [packages/types/src/codec/Struct.ts:266](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L266)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -550,7 +550,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/typescript/lib/lib.es2015.iterable.d.ts:136
+Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:136
 
 Returns an iterable of values in the map
 
@@ -564,7 +564,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L238)*
+*Defined in [packages/types/src/codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L238)*
 
 **Parameters:**
 
@@ -583,7 +583,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/Struct.ts:120](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/Struct.ts#L120)*
+*Defined in [packages/types/src/codec/Struct.ts:120](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/Struct.ts#L120)*
 
 **Type parameters:**
 

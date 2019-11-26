@@ -22,7 +22,7 @@
 
 • **isSome**: *boolean*
 
-*Defined in [types.ts:322](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/types.ts#L322)*
+*Defined in [packages/types/src/types.ts:322](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/types.ts#L322)*
 
 ## Methods
 
@@ -30,6 +30,6 @@
 
 ▸ **unwrap**(): *[RegistryMetadataCall](_types_.registrymetadatacall.md)[]*
 
-*Defined in [types.ts:323](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/types.ts#L323)*
+*Defined in [packages/types/src/types.ts:323](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/types.ts#L323)*
 
 **Returns:** *[RegistryMetadataCall](_types_.registrymetadatacall.md)[]*

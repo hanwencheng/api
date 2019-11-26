@@ -137,7 +137,7 @@
 
 *Overrides void*
 
-*Defined in [Metadata/MagicNumber.ts:13](https://github.com/polkadot-js/api/blob/883b191ae7/packages/metadata/src/Metadata/MagicNumber.ts#L13)*
+*Defined in [packages/metadata/src/Metadata/MagicNumber.ts:13](https://github.com/polkadot-js/api/blob/aaff64404a/packages/metadata/src/Metadata/MagicNumber.ts#L13)*
 
 **Parameters:**
 
@@ -156,7 +156,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:25](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/AbstractInt.ts#L25)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:25](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/AbstractInt.ts#L25)*
 
 ## Accessors
 
@@ -166,7 +166,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:73](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/AbstractInt.ts#L73)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:73](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/AbstractInt.ts#L73)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -180,7 +180,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:80](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/AbstractInt.ts#L80)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:80](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/AbstractInt.ts#L80)*
 
 **`description`** returns a hash of the contents
 
@@ -194,7 +194,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:87](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/AbstractInt.ts#L87)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:87](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/AbstractInt.ts#L87)*
 
 **`description`** Checks if the value is a zero value (align elsewhere)
 
@@ -208,7 +208,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:230
+Defined in node_modules/@types/bn.js/index.d.ts:230
 
 **`description`** absolute value
 
@@ -222,7 +222,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:240
+Defined in node_modules/@types/bn.js/index.d.ts:240
 
 **`description`** addition
 
@@ -242,7 +242,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:250
+Defined in node_modules/@types/bn.js/index.d.ts:250
 
 **`description`** addition
 
@@ -262,7 +262,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:371
+Defined in node_modules/@types/bn.js/index.d.ts:371
 
 **`description`** and
 
@@ -282,7 +282,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:391
+Defined in node_modules/@types/bn.js/index.d.ts:391
 
 **`description`** and (NOTE: `andln` is going to be replaced with `andn` in future)
 
@@ -302,7 +302,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:475
+Defined in node_modules/@types/bn.js/index.d.ts:475
 
 **`description`** add `1 << b` to the number
 
@@ -324,7 +324,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:94](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/AbstractInt.ts#L94)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:94](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/AbstractInt.ts#L94)*
 
 **`description`** Returns the number of bits in the value
 
@@ -338,7 +338,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:120
+Defined in node_modules/@types/bn.js/index.d.ts:120
 
 **`description`** return number of bytes occupied
 
@@ -352,7 +352,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:65
+Defined in node_modules/@types/bn.js/index.d.ts:65
 
 **`description`** clone number
 
@@ -366,7 +366,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:145
+Defined in node_modules/@types/bn.js/index.d.ts:145
 
 **`description`** compare numbers and return `-1 (a < b)`, `0 (a == b)`, or `1 (a > b)` depending on the comparison result
 
@@ -386,7 +386,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:155
+Defined in node_modules/@types/bn.js/index.d.ts:155
 
 **`description`** compare numbers and return `-1 (a < b)`, `0 (a == b)`, or `1 (a > b)` depending on the comparison result
 
@@ -406,7 +406,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:315
+Defined in node_modules/@types/bn.js/index.d.ts:315
 
 **`description`** divide
 
@@ -426,7 +426,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:346
+Defined in node_modules/@types/bn.js/index.d.ts:346
 
 **`description`** rounded division
 
@@ -446,7 +446,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:320
+Defined in node_modules/@types/bn.js/index.d.ts:320
 
 **`description`** divide
 
@@ -466,7 +466,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:495
+Defined in node_modules/@types/bn.js/index.d.ts:495
 
 **`description`** Extended GCD results `({ a: ..., b: ..., gcd: ... })`
 
@@ -488,7 +488,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:102](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/AbstractInt.ts#L102)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:102](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/AbstractInt.ts#L102)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -508,7 +508,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:205
+Defined in node_modules/@types/bn.js/index.d.ts:205
 
 **`description`** a equals b
 
@@ -528,7 +528,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:215
+Defined in node_modules/@types/bn.js/index.d.ts:215
 
 **`description`** convert from two's complement representation, where width is the bit width
 
@@ -548,7 +548,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:490
+Defined in node_modules/@types/bn.js/index.d.ts:490
 
 **`description`** GCD
 
@@ -568,7 +568,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:180
+Defined in node_modules/@types/bn.js/index.d.ts:180
 
 **`description`** a greater than b
 
@@ -588,7 +588,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:190
+Defined in node_modules/@types/bn.js/index.d.ts:190
 
 **`description`** a greater than or equals b
 
@@ -608,7 +608,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:195
+Defined in node_modules/@types/bn.js/index.d.ts:195
 
 **`description`** a greater than or equals b
 
@@ -628,7 +628,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:185
+Defined in node_modules/@types/bn.js/index.d.ts:185
 
 **`description`** a greater than b
 
@@ -648,7 +648,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:235
+Defined in node_modules/@types/bn.js/index.d.ts:235
 
 **`description`** absolute value
 
@@ -662,7 +662,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:245
+Defined in node_modules/@types/bn.js/index.d.ts:245
 
 **`description`** addition
 
@@ -682,7 +682,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:255
+Defined in node_modules/@types/bn.js/index.d.ts:255
 
 **`description`** addition
 
@@ -702,7 +702,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:376
+Defined in node_modules/@types/bn.js/index.d.ts:376
 
 **`description`** and
 
@@ -722,7 +722,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:325
+Defined in node_modules/@types/bn.js/index.d.ts:325
 
 **`description`** divide
 
@@ -742,7 +742,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:471
+Defined in node_modules/@types/bn.js/index.d.ts:471
 
 **`description`** clear bits with indexes higher or equal to `b`
 
@@ -762,7 +762,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:285
+Defined in node_modules/@types/bn.js/index.d.ts:285
 
 **`description`** multiply
 
@@ -782,7 +782,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:295
+Defined in node_modules/@types/bn.js/index.d.ts:295
 
 **`description`** multiply
 
@@ -802,7 +802,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:225
+Defined in node_modules/@types/bn.js/index.d.ts:225
 
 **`description`** negate sign
 
@@ -816,7 +816,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:485
+Defined in node_modules/@types/bn.js/index.d.ts:485
 
 **`description`** not (for the width specified by `w`)
 
@@ -836,7 +836,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:500
+Defined in node_modules/@types/bn.js/index.d.ts:500
 
 **`description`** inverse `a` modulo `b`
 
@@ -856,7 +856,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:356
+Defined in node_modules/@types/bn.js/index.d.ts:356
 
 **`description`** or
 
@@ -876,7 +876,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:130
+Defined in node_modules/@types/bn.js/index.d.ts:130
 
 **`description`** check if value is even
 
@@ -890,7 +890,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:125
+Defined in node_modules/@types/bn.js/index.d.ts:125
 
 **`description`** true if the number is negative
 
@@ -904,7 +904,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:135
+Defined in node_modules/@types/bn.js/index.d.ts:135
 
 **`description`** check if value is odd
 
@@ -918,7 +918,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:140
+Defined in node_modules/@types/bn.js/index.d.ts:140
 
 **`description`** check if value is zero
 
@@ -932,7 +932,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:426
+Defined in node_modules/@types/bn.js/index.d.ts:426
 
 **`description`** shift left
 
@@ -952,7 +952,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:446
+Defined in node_modules/@types/bn.js/index.d.ts:446
 
 **`description`** shift right (unimplemented https://github.com/indutny/bn.js/blob/master/lib/bn.js#L2086)
 
@@ -972,7 +972,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:305
+Defined in node_modules/@types/bn.js/index.d.ts:305
 
 **`description`** square
 
@@ -986,7 +986,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:265
+Defined in node_modules/@types/bn.js/index.d.ts:265
 
 **`description`** subtraction
 
@@ -1006,7 +1006,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:275
+Defined in node_modules/@types/bn.js/index.d.ts:275
 
 **`description`** subtraction
 
@@ -1026,7 +1026,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:386
+Defined in node_modules/@types/bn.js/index.d.ts:386
 
 **`description`** and
 
@@ -1046,7 +1046,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:366
+Defined in node_modules/@types/bn.js/index.d.ts:366
 
 **`description`** or
 
@@ -1066,7 +1066,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:436
+Defined in node_modules/@types/bn.js/index.d.ts:436
 
 **`description`** shift left
 
@@ -1086,7 +1086,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:456
+Defined in node_modules/@types/bn.js/index.d.ts:456
 
 **`description`** shift right
 
@@ -1106,7 +1106,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:411
+Defined in node_modules/@types/bn.js/index.d.ts:411
 
 **`description`** xor
 
@@ -1126,7 +1126,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:401
+Defined in node_modules/@types/bn.js/index.d.ts:401
 
 **`description`** xor
 
@@ -1146,7 +1146,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:160
+Defined in node_modules/@types/bn.js/index.d.ts:160
 
 **`description`** a less than b
 
@@ -1166,7 +1166,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:170
+Defined in node_modules/@types/bn.js/index.d.ts:170
 
 **`description`** a less than or equals b
 
@@ -1186,7 +1186,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:175
+Defined in node_modules/@types/bn.js/index.d.ts:175
 
 **`description`** a less than or equals b
 
@@ -1206,7 +1206,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:165
+Defined in node_modules/@types/bn.js/index.d.ts:165
 
 **`description`** a less than b
 
@@ -1226,7 +1226,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:466
+Defined in node_modules/@types/bn.js/index.d.ts:466
 
 **`description`** clear bits with indexes higher or equal to `b`
 
@@ -1246,7 +1246,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:330
+Defined in node_modules/@types/bn.js/index.d.ts:330
 
 **`description`** reduct
 
@@ -1266,7 +1266,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:341
+Defined in node_modules/@types/bn.js/index.d.ts:341
 
 **`see`** API consistency https://github.com/indutny/bn.js/pull/130
 
@@ -1288,7 +1288,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:280
+Defined in node_modules/@types/bn.js/index.d.ts:280
 
 **`description`** multiply
 
@@ -1308,7 +1308,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:290
+Defined in node_modules/@types/bn.js/index.d.ts:290
 
 **`description`** multiply
 
@@ -1328,7 +1328,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:220
+Defined in node_modules/@types/bn.js/index.d.ts:220
 
 **`description`** negate sign
 
@@ -1342,7 +1342,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:480
+Defined in node_modules/@types/bn.js/index.d.ts:480
 
 **`description`** not (for the width specified by `w`)
 
@@ -1362,7 +1362,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:351
+Defined in node_modules/@types/bn.js/index.d.ts:351
 
 **`description`** or
 
@@ -1382,7 +1382,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:310
+Defined in node_modules/@types/bn.js/index.d.ts:310
 
 **`description`** raise `a` to the power of `b`
 
@@ -1402,7 +1402,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:416
+Defined in node_modules/@types/bn.js/index.d.ts:416
 
 **`description`** set specified bit to 1
 
@@ -1422,7 +1422,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:421
+Defined in node_modules/@types/bn.js/index.d.ts:421
 
 **`description`** shift left
 
@@ -1442,7 +1442,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:441
+Defined in node_modules/@types/bn.js/index.d.ts:441
 
 **`description`** shift right
 
@@ -1462,7 +1462,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:300
+Defined in node_modules/@types/bn.js/index.d.ts:300
 
 **`description`** square
 
@@ -1476,7 +1476,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:260
+Defined in node_modules/@types/bn.js/index.d.ts:260
 
 **`description`** subtraction
 
@@ -1496,7 +1496,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:270
+Defined in node_modules/@types/bn.js/index.d.ts:270
 
 **`description`** subtraction
 
@@ -1516,7 +1516,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:461
+Defined in node_modules/@types/bn.js/index.d.ts:461
 
 **`description`** test if specified bit is set
 
@@ -1536,7 +1536,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:85
+Defined in node_modules/@types/bn.js/index.d.ts:85
 
 **`description`** convert to byte Array, and optionally zero pad to length, throwing if already exceeding
 
@@ -1557,7 +1557,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:90
+Defined in node_modules/@types/bn.js/index.d.ts:90
 
 **`description`** convert to an instance of `type`, which must behave like an Array
 
@@ -1575,7 +1575,7 @@ Name | Type |
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:96
+Defined in node_modules/@types/bn.js/index.d.ts:96
 
 **Parameters:**
 
@@ -1595,7 +1595,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:115](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/AbstractInt.ts#L115)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:115](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/AbstractInt.ts#L115)*
 
 **`description`** Returns the BN representation of the number. (Compatibility)
 
@@ -1609,7 +1609,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:105
+Defined in node_modules/@types/bn.js/index.d.ts:105
 
 **`description`** convert to Node.js Buffer (if available). For compatibility with browserify and similar tools, use this instead: a.toArrayLike(Buffer, endian, length)
 
@@ -1632,7 +1632,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/UInt.ts#L38)*
+*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -1654,7 +1654,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:127](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/AbstractInt.ts#L127)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:127](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/AbstractInt.ts#L127)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -1668,7 +1668,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:75
+Defined in node_modules/@types/bn.js/index.d.ts:75
 
 **`description`** convert to Javascript Number (limited to 53 bits)
 
@@ -1684,7 +1684,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/UInt.ts#L50)*
+*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/UInt.ts#L50)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -1698,7 +1698,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:505
+Defined in node_modules/@types/bn.js/index.d.ts:505
 
 **`description`** Convert number to red
 
@@ -1720,7 +1720,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:145](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/AbstractInt.ts#L145)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:145](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/AbstractInt.ts#L145)*
 
 **`description`** Returns the string representation of the value
 
@@ -1740,7 +1740,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:210
+Defined in node_modules/@types/bn.js/index.d.ts:210
 
 **`description`** convert to two's complement representation, where width is bit width
 
@@ -1762,7 +1762,7 @@ ___
 
 *Overrides void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/UInt.ts#L64)*
+*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -1782,7 +1782,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:381
+Defined in node_modules/@types/bn.js/index.d.ts:381
 
 **`description`** and
 
@@ -1802,7 +1802,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:150
+Defined in node_modules/@types/bn.js/index.d.ts:150
 
 **`description`** compare numbers and return `-1 (a < b)`, `0 (a == b)`, or `1 (a > b)` depending on the comparison result
 
@@ -1822,7 +1822,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:335
+Defined in node_modules/@types/bn.js/index.d.ts:335
 
 **`description`** reduct
 
@@ -1842,7 +1842,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:361
+Defined in node_modules/@types/bn.js/index.d.ts:361
 
 **`description`** or
 
@@ -1862,7 +1862,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:431
+Defined in node_modules/@types/bn.js/index.d.ts:431
 
 **`description`** shift left
 
@@ -1882,7 +1882,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:451
+Defined in node_modules/@types/bn.js/index.d.ts:451
 
 **`description`** shift right
 
@@ -1902,7 +1902,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:406
+Defined in node_modules/@types/bn.js/index.d.ts:406
 
 **`description`** xor
 
@@ -1922,7 +1922,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:396
+Defined in node_modules/@types/bn.js/index.d.ts:396
 
 **`description`** xor
 
@@ -1942,7 +1942,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:115
+Defined in node_modules/@types/bn.js/index.d.ts:115
 
 **`description`** return number of less-significant consequent zero bits (example: 1010000 has 4 zero bits)
 
@@ -1956,7 +1956,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/AbstractInt.ts:42](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/AbstractInt.ts#L42)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:42](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/AbstractInt.ts#L42)*
 
 **Parameters:**
 
@@ -1976,7 +1976,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:50
+Defined in node_modules/@types/bn.js/index.d.ts:50
 
 **`description`** returns true if the supplied object is a BN.js instance
 
@@ -1996,7 +1996,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:55
+Defined in node_modules/@types/bn.js/index.d.ts:55
 
 **`description`** returns the maximum of 2 BN instances.
 
@@ -2017,7 +2017,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:60
+Defined in node_modules/@types/bn.js/index.d.ts:60
 
 **`description`** returns the minimum of 2 BN instances.
 
@@ -2038,7 +2038,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:45
+Defined in node_modules/@types/bn.js/index.d.ts:45
 
 **`description`** create a reduction context  with the Montgomery trick.
 
@@ -2058,7 +2058,7 @@ ___
 
 *Inherited from void*
 
-Defined in /home/runner/work/api/api/node_modules/@types/bn.js/index.d.ts:40
+Defined in node_modules/@types/bn.js/index.d.ts:40
 
 **`description`** create a reduction context
 
@@ -2078,7 +2078,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [/home/runner/work/api/api/packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/UInt.ts#L27)*
+*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/aaff64404a/packages/types/src/codec/UInt.ts#L27)*
 
 **Parameters:**
 
