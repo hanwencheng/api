@@ -22,7 +22,7 @@
 
 Ƭ **SubmittableResultResult**: *SubmittableResultResult<ApiType>*
 
-*Defined in [submittable/types.ts:27](https://github.com/polkadot-js/api/blob/ed4af1d04b/packages/api/src/submittable/types.ts#L27)*
+*Defined in [submittable/types.ts:27](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api/src/submittable/types.ts#L27)*
 
 ___
 
@@ -30,4 +30,4 @@ ___
 
 Ƭ **SubmittableResultSubscription**: *SubmittableResultSubscription<ApiType>*
 
-*Defined in [submittable/types.ts:32](https://github.com/polkadot-js/api/blob/ed4af1d04b/packages/api/src/submittable/types.ts#L32)*
+*Defined in [submittable/types.ts:32](https://github.com/polkadot-js/api/blob/883b191ae7/packages/api/src/submittable/types.ts#L32)*

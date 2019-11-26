@@ -14,7 +14,7 @@
 
 ▸ **getTypeClass**<**T**>(`registry`: [Registry](../interfaces/_types_.registry.md), `value`: [TypeDef](../interfaces/_codec_create_types_.typedef.md)): *[Constructor](../interfaces/_types_.constructor.md)‹T›*
 
-*Defined in [codec/create/getTypeClass.ts:130](https://github.com/polkadot-js/api/blob/ed4af1d04b/packages/types/src/codec/create/getTypeClass.ts#L130)*
+*Defined in [codec/create/getTypeClass.ts:130](https://github.com/polkadot-js/api/blob/883b191ae7/packages/types/src/codec/create/getTypeClass.ts#L130)*
 
 **Type parameters:**
 
