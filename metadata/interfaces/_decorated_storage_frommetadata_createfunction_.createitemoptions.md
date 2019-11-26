@@ -19,7 +19,7 @@
 
 • **key**? : *undefined | string*
 
-*Defined in [Decorated/storage/fromMetadata/createFunction.ts:16](https://github.com/polkadot-js/api/blob/26b6a59725/packages/metadata/src/Decorated/storage/fromMetadata/createFunction.ts#L16)*
+*Defined in [Decorated/storage/fromMetadata/createFunction.ts:16](https://github.com/polkadot-js/api/blob/ed4af1d04b/packages/metadata/src/Decorated/storage/fromMetadata/createFunction.ts#L16)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **skipHashing**? : *undefined | false | true*
 
-*Defined in [Decorated/storage/fromMetadata/createFunction.ts:17](https://github.com/polkadot-js/api/blob/26b6a59725/packages/metadata/src/Decorated/storage/fromMetadata/createFunction.ts#L17)*
+*Defined in [Decorated/storage/fromMetadata/createFunction.ts:17](https://github.com/polkadot-js/api/blob/ed4af1d04b/packages/metadata/src/Decorated/storage/fromMetadata/createFunction.ts#L17)*

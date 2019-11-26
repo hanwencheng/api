@@ -19,7 +19,7 @@
 
 • **args**: *any[]*
 
-*Defined in [types.ts:327](https://github.com/polkadot-js/api/blob/26b6a59725/packages/types/src/types.ts#L327)*
+*Defined in [types.ts:327](https://github.com/polkadot-js/api/blob/ed4af1d04b/packages/types/src/types.ts#L327)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **name**: *String & [Codec](_types_.codec.md)*
 
-*Defined in [types.ts:329](https://github.com/polkadot-js/api/blob/26b6a59725/packages/types/src/types.ts#L329)*
+*Defined in [types.ts:329](https://github.com/polkadot-js/api/blob/ed4af1d04b/packages/types/src/types.ts#L329)*
