@@ -10,7 +10,7 @@
 
 ▸ (...`args`: any[]): *[Call](../classes/_primitive_generic_call_.call.md)*
 
-*Defined in [packages/types/src/types.ts:23](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/types/src/types.ts#L23)*
+*Defined in [packages/types/src/types.ts:23](https://github.com/polkadot-js/api/blob/8ed2bda3a8/packages/types/src/types.ts#L23)*
 
 **Parameters:**
 
@@ -36,7 +36,7 @@ Name | Type |
 
 • **callIndex**: *Uint8Array*
 
-*Defined in [packages/types/src/types.ts:25](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/types/src/types.ts#L25)*
+*Defined in [packages/types/src/types.ts:25](https://github.com/polkadot-js/api/blob/8ed2bda3a8/packages/types/src/types.ts#L25)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **meta**: *[FunctionMetadataLatest](_interfaces_metadata_types_.functionmetadatalatest.md)*
 
-*Defined in [packages/types/src/types.ts:26](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/types/src/types.ts#L26)*
+*Defined in [packages/types/src/types.ts:26](https://github.com/polkadot-js/api/blob/8ed2bda3a8/packages/types/src/types.ts#L26)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **method**: *string*
 
-*Defined in [packages/types/src/types.ts:27](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/types/src/types.ts#L27)*
+*Defined in [packages/types/src/types.ts:27](https://github.com/polkadot-js/api/blob/8ed2bda3a8/packages/types/src/types.ts#L27)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **section**: *string*
 
-*Defined in [packages/types/src/types.ts:28](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/types/src/types.ts#L28)*
+*Defined in [packages/types/src/types.ts:28](https://github.com/polkadot-js/api/blob/8ed2bda3a8/packages/types/src/types.ts#L28)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **toJSON**: *function*
 
-*Defined in [packages/types/src/types.ts:29](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/types/src/types.ts#L29)*
+*Defined in [packages/types/src/types.ts:29](https://github.com/polkadot-js/api/blob/8ed2bda3a8/packages/types/src/types.ts#L29)*
 
 #### Type declaration:
 
