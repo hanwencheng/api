@@ -27,7 +27,7 @@
 
 • **derives**? : *DeriveCustom*
 
-*Defined in [api/src/types.ts:184](https://github.com/polkadot-js/api/blob/9c337422a5/packages/api/src/types.ts#L184)*
+*Defined in [api/src/types.ts:184](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/api/src/types.ts#L184)*
 
 **`description`** Add custom derives to be injected
 
@@ -37,7 +37,7 @@ ___
 
 • **metadata**? : *Record‹string, string›*
 
-*Defined in [api/src/types.ts:189](https://github.com/polkadot-js/api/blob/9c337422a5/packages/api/src/types.ts#L189)*
+*Defined in [api/src/types.ts:189](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/api/src/types.ts#L189)*
 
 **`description`** prebundles is a map of 'genesis hash and runtime spec version' as key to metadata's hex string
 if genesis hash and runtime spec version matches, then use metadata, else fetch it from chain
@@ -48,7 +48,7 @@ ___
 
 • **provider**? : *ProviderInterface*
 
-*Defined in [api/src/types.ts:194](https://github.com/polkadot-js/api/blob/9c337422a5/packages/api/src/types.ts#L194)*
+*Defined in [api/src/types.ts:194](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/api/src/types.ts#L194)*
 
 **`description`** Transport Provider from rpc-provider. If not specified, it will default to
 connecting to a WsProvider connecting localhost with the default port, i.e. `ws://127.0.0.1:9944`
@@ -59,7 +59,7 @@ ___
 
 • **registry**? : *Registry*
 
-*Defined in [api/src/types.ts:198](https://github.com/polkadot-js/api/blob/9c337422a5/packages/api/src/types.ts#L198)*
+*Defined in [api/src/types.ts:198](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/api/src/types.ts#L198)*
 
 **`description`** A type registry to use along with this instance
 
@@ -69,7 +69,7 @@ ___
 
 • **rpc**? : *UserRpc*
 
-*Defined in [api/src/types.ts:202](https://github.com/polkadot-js/api/blob/9c337422a5/packages/api/src/types.ts#L202)*
+*Defined in [api/src/types.ts:202](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/api/src/types.ts#L202)*
 
 **`description`** User-defined RPC methods
 
@@ -79,7 +79,7 @@ ___
 
 • **signer**? : *[Signer](_types_.signer.md)*
 
-*Defined in [api/src/types.ts:206](https://github.com/polkadot-js/api/blob/9c337422a5/packages/api/src/types.ts#L206)*
+*Defined in [api/src/types.ts:206](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/api/src/types.ts#L206)*
 
 **`description`** An external signer which will be used to sign extrinsic when account passed in is not KeyringPair
 
@@ -89,7 +89,7 @@ ___
 
 • **source**? : *ApiBase‹any›*
 
-*Defined in [api/src/types.ts:210](https://github.com/polkadot-js/api/blob/9c337422a5/packages/api/src/types.ts#L210)*
+*Defined in [api/src/types.ts:210](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/api/src/types.ts#L210)*
 
 **`description`** The source object to use for runtime information (only used when cloning)
 
@@ -99,7 +99,7 @@ ___
 
 • **types**? : *RegistryTypes*
 
-*Defined in [api/src/types.ts:215](https://github.com/polkadot-js/api/blob/9c337422a5/packages/api/src/types.ts#L215)*
+*Defined in [api/src/types.ts:215](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/api/src/types.ts#L215)*
 
 **`description`** Additional types used by runtime modules. This is nessusary if the runtime modules
 uses types not available in the base Substrate runtime.
@@ -110,7 +110,7 @@ ___
 
 • **typesChain**? : *Record‹string, RegistryTypes›*
 
-*Defined in [api/src/types.ts:219](https://github.com/polkadot-js/api/blob/9c337422a5/packages/api/src/types.ts#L219)*
+*Defined in [api/src/types.ts:219](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/api/src/types.ts#L219)*
 
 **`description`** Additional types that are injected based on the chain we are connecting to. There are keyed by the chain, i.e. `{ 'Kusama CC1': { ... } }`
 
@@ -120,6 +120,6 @@ ___
 
 • **typesSpec**? : *Record‹string, RegistryTypes›*
 
-*Defined in [api/src/types.ts:223](https://github.com/polkadot-js/api/blob/9c337422a5/packages/api/src/types.ts#L223)*
+*Defined in [api/src/types.ts:223](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/api/src/types.ts#L223)*
 
 **`description`** Additional types that are injected based on the type of node we are connecting to, as set via specName in the runtime version. There are keyed by the node, i.e. `{ 'edgeware': { ... } }`

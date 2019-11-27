@@ -20,14 +20,14 @@
 
 ###  unwrapStorageType
 
-▸ **unwrapStorageType**(`type`: StorageType): *string*
+▸ **unwrapStorageType**(`type`: [StorageEntryTypeLatest](../interfaces/_interfaces_metadata_types_.storageentrytypelatest.md)): *string*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:52](https://github.com/polkadot-js/api/blob/9c337422a5/packages/types/src/primitive/StorageKey.ts#L52)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:34](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/primitive/StorageKey.ts#L34)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`type` | StorageType |
+`type` | [StorageEntryTypeLatest](../interfaces/_interfaces_metadata_types_.storageentrytypelatest.md) |
 
 **Returns:** *string*

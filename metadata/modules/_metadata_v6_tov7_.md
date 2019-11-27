@@ -14,7 +14,7 @@
 
 ▸ **toV7**(`registry`: Registry, `__namedParameters`: object): *MetadataV7*
 
-*Defined in [packages/metadata/src/Metadata/v6/toV7.ts:13](https://github.com/polkadot-js/api/blob/9c337422a5/packages/metadata/src/Metadata/v6/toV7.ts#L13)*
+*Defined in [packages/metadata/src/Metadata/v6/toV7.ts:13](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/metadata/src/Metadata/v6/toV7.ts#L13)*
 
 Convert from MetadataV6 to MetadataV7
 

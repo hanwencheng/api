@@ -12,14 +12,15 @@
 
 ###  getStorage
 
-▸ **getStorage**(`registry`: Registry): *[Storage](../interfaces/_decorated_types_.storage.md)*
+▸ **getStorage**(`registry`: Registry, `metaVersion`: number): *[Storage](../interfaces/_decorated_types_.storage.md)*
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/storage.ts:11](https://github.com/polkadot-js/api/blob/9c337422a5/packages/metadata/src/Decorated/storage/fromMetadata/storage.ts#L11)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/storage.ts:11](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/metadata/src/Decorated/storage/fromMetadata/storage.ts#L11)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `registry` | Registry |
+`metaVersion` | number |
 
 **Returns:** *[Storage](../interfaces/_decorated_types_.storage.md)*

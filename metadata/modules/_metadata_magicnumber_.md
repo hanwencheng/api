@@ -18,4 +18,4 @@
 
 • **MAGIC_NUMBER**: *1635018093* = 1635018093
 
-*Defined in [packages/metadata/src/Metadata/MagicNumber.ts:11](https://github.com/polkadot-js/api/blob/9c337422a5/packages/metadata/src/Metadata/MagicNumber.ts#L11)*
+*Defined in [packages/metadata/src/Metadata/MagicNumber.ts:11](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/metadata/src/Metadata/MagicNumber.ts#L11)*

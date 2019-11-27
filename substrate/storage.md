@@ -326,7 +326,7 @@ ___
 
 ## imOnline
 
-### authoredBlocks(`SessionIndex, ValidatorId`): `DoubleMap<u32>`
+### authoredBlocks(`SessionIndex, ValidatorId`): `u32`
 - **interface**: api.query.imOnline.authoredBlocks
 - **summary**: For each session index, we keep a mapping of `T::ValidatorId` to the number of blocks authored by the given authority.
 
@@ -338,7 +338,7 @@ ___
 - **interface**: api.query.imOnline.keys
 - **summary**: The current set of keys that may issue a heartbeat.
 
-### receivedHeartbeats(`SessionIndex, AuthIndex`): `Option<DoubleMap<Bytes>>`
+### receivedHeartbeats(`SessionIndex, AuthIndex`): `Option<Bytes>`
 - **interface**: api.query.imOnline.receivedHeartbeats
 - **summary**: For each session index, we keep a mapping of `AuthIndex` to `offchain::OpaqueNetworkState`.
 
@@ -369,7 +369,7 @@ ___
 
 ## offences
 
-### concurrentReportsIndex(`Kind, OpaqueTimeSlot`): `DoubleMap<Vec<ReportIdOf>>`
+### concurrentReportsIndex(`Kind, OpaqueTimeSlot`): `Vec<ReportIdOf>`
 - **interface**: api.query.offences.concurrentReportsIndex
 - **summary**: A vector of reports of the same kind that happened at the same time slot.
 
@@ -403,11 +403,11 @@ ___
 - **interface**: api.query.session.disabledValidators
 - **summary**: Indices of disabled validators.  The set is cleared when `on_session_ending` returns a new set of identities.
 
-### keyOwner(`Bytes, (KeyTypeId,Bytes)`): `Option<DoubleMap<ValidatorId>>`
+### keyOwner(`Bytes, (KeyTypeId,Bytes)`): `Option<ValidatorId>`
 - **interface**: api.query.session.keyOwner
 - **summary**: The owner of a key. The second key is the `KeyTypeId` + the encoded key.  The first key is always `DEDUP_KEY_PREFIX` to have all the data in the same branch of the trie. Having all data in the same branch should prevent slowing down other queries.
 
-### nextKeys(`Bytes, ValidatorId`): `Option<DoubleMap<Keys>>`
+### nextKeys(`Bytes, ValidatorId`): `Option<Keys>`
 - **interface**: api.query.session.nextKeys
 - **summary**: The next session keys for a validator.  The first key is always `DEDUP_KEY_PREFIX` to have all the data in the same branch of the trie. Having all data in the same branch should prevent slowing down other queries.
 
@@ -484,7 +484,7 @@ ___
 - **interface**: api.query.staking.nominators
 - **summary**: The map from nominator stash key to the set of stash keys of all validators to nominate.  NOTE: is private so that we can ensure upgraded before all typical accesses. Direct storage APIs can still bypass this protection.
 
-### nominatorSlashInEra(`EraIndex, AccountId`): `Option<DoubleMap<BalanceOf>>`
+### nominatorSlashInEra(`EraIndex, AccountId`): `Option<BalanceOf>`
 - **interface**: api.query.staking.nominatorSlashInEra
 - **summary**: All slashing events on nominators, mapped by era to the highest slash value of the era.
 
@@ -528,7 +528,7 @@ ___
 - **interface**: api.query.staking.validators
 - **summary**: The map from (wannabe) validator stash key to the preferences of that validator.
 
-### validatorSlashInEra(`EraIndex, AccountId`): `Option<DoubleMap<(Perbill,BalanceOf)>>`
+### validatorSlashInEra(`EraIndex, AccountId`): `Option<(Perbill,BalanceOf)>`
 - **interface**: api.query.staking.validatorSlashInEra
 - **summary**: All slashing events on validators, mapped by era to the highest slash proportion and slash value of the era.
 
@@ -574,7 +574,7 @@ ___
 - **interface**: api.query.system.events
 - **summary**: Events deposited for the current block.
 
-### eventTopics(`Null, Hash`): `DoubleMap<Vec<(BlockNumber,EventIndex)>>`
+### eventTopics(`Null, Hash`): `Vec<(BlockNumber,EventIndex)>`
 - **interface**: api.query.system.eventTopics
 - **summary**: Mapping between a topic (represented by T::Hash) and a vector of indexes of events in the `<Events<T>>` list.  The first key serves no purpose. This field is declared as double_map just for convenience of using `remove_prefix`.  All topic vectors have deterministic storage locations depending on the topic. This allows light-clients to leverage the changes trie storage tracking mechanism and in case of changes fetch the list of events of interest.  The value has the type `(T::BlockNumber, EventIndex)` because if we used only just the `EventIndex` then in case if the topic has the same contents on the next block no notification will be triggered thus the event might be lost.
 

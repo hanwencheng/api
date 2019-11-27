@@ -19,7 +19,7 @@
 
 • **array.len**: *number*
 
-*Defined in [packages/types/src/codec/create/types.ts:84](https://github.com/polkadot-js/api/blob/9c337422a5/packages/types/src/codec/create/types.ts#L84)*
+*Defined in [packages/types/src/codec/create/types.ts:83](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/codec/create/types.ts#L83)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **array.type**: *[TypeIndex](../modules/_codec_create_types_.md#typeindex)*
 
-*Defined in [packages/types/src/codec/create/types.ts:85](https://github.com/polkadot-js/api/blob/9c337422a5/packages/types/src/codec/create/types.ts#L85)*
+*Defined in [packages/types/src/codec/create/types.ts:84](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/codec/create/types.ts#L84)*

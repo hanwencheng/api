@@ -23,17 +23,18 @@
   type: 'u32'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:36](https://github.com/polkadot-js/api/blob/9c337422a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L36)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:36](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L36)*
 
 #### Type declaration:
 
-▸ (`registry`: Registry): *StorageEntry*
+▸ (`registry`: Registry, `metaVersion`: number): *StorageEntry*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `registry` | Registry |
+`metaVersion` | number |
 
 ___
 
@@ -44,17 +45,18 @@ ___
   type: 'u32'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:41](https://github.com/polkadot-js/api/blob/9c337422a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L41)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:41](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L41)*
 
 #### Type declaration:
 
-▸ (`registry`: Registry): *StorageEntry*
+▸ (`registry`: Registry, `metaVersion`: number): *StorageEntry*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `registry` | Registry |
+`metaVersion` | number |
 
 ___
 
@@ -65,17 +67,18 @@ ___
   type: 'u32'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:61](https://github.com/polkadot-js/api/blob/9c337422a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L61)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:61](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L61)*
 
 #### Type declaration:
 
-▸ (`registry`: Registry): *StorageEntry*
+▸ (`registry`: Registry, `metaVersion`: number): *StorageEntry*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `registry` | Registry |
+`metaVersion` | number |
 
 ___
 
@@ -86,17 +89,18 @@ ___
   type: 'u32'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:66](https://github.com/polkadot-js/api/blob/9c337422a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L66)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:66](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L66)*
 
 #### Type declaration:
 
-▸ (`registry`: Registry): *StorageEntry*
+▸ (`registry`: Registry, `metaVersion`: number): *StorageEntry*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `registry` | Registry |
+`metaVersion` | number |
 
 ___
 
@@ -107,17 +111,18 @@ ___
   type: 'Bytes'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:46](https://github.com/polkadot-js/api/blob/9c337422a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L46)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:46](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L46)*
 
 #### Type declaration:
 
-▸ (`registry`: Registry): *StorageEntry*
+▸ (`registry`: Registry, `metaVersion`: number): *StorageEntry*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `registry` | Registry |
+`metaVersion` | number |
 
 ___
 
@@ -128,17 +133,18 @@ ___
   type: 'u32'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:56](https://github.com/polkadot-js/api/blob/9c337422a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L56)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:56](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L56)*
 
 #### Type declaration:
 
-▸ (`registry`: Registry): *StorageEntry*
+▸ (`registry`: Registry, `metaVersion`: number): *StorageEntry*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `registry` | Registry |
+`metaVersion` | number |
 
 ___
 
@@ -149,14 +155,15 @@ ___
   type: 'u64'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:51](https://github.com/polkadot-js/api/blob/9c337422a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L51)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:51](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L51)*
 
 #### Type declaration:
 
-▸ (`registry`: Registry): *StorageEntry*
+▸ (`registry`: Registry, `metaVersion`: number): *StorageEntry*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `registry` | Registry |
+`metaVersion` | number |
