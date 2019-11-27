@@ -38,6 +38,7 @@
 * ["session/info"](modules/_session_info_.md)
 * ["session/sessionProgress"](modules/_session_sessionprogress_.md)
 * ["staking/controllers"](modules/_staking_controllers_.md)
+* ["staking/electedInfo"](modules/_staking_electedinfo_.md)
 * ["staking/info"](modules/_staking_info_.md)
 * ["staking/infoStash"](modules/_staking_infostash_.md)
 * ["staking/overview"](modules/_staking_overview_.md)
