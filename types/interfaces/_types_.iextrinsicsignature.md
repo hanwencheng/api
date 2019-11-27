@@ -51,7 +51,7 @@
 
 *Inherited from [Codec](_types_.codec.md).[encodedLength](_types_.codec.md#encodedlength)*
 
-*Defined in [packages/types/src/types.ts:77](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L77)*
+*Defined in [packages/types/src/types.ts:79](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L79)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -63,7 +63,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/types.ts:181](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L181)*
+*Defined in [packages/types/src/types.ts:183](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L183)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[hash](_types_.codec.md#hash)*
 
-*Defined in [packages/types/src/types.ts:82](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L82)*
+*Defined in [packages/types/src/types.ts:84](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L84)*
 
 **`description`** Returns a hash of the value
 
@@ -85,7 +85,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[isEmpty](_types_.codec.md#isempty)*
 
-*Defined in [packages/types/src/types.ts:87](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L87)*
+*Defined in [packages/types/src/types.ts:89](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L89)*
 
 **`description`** Checks if the value is an empty value
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/types.ts:180](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L180)*
+*Defined in [packages/types/src/types.ts:182](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L182)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/types.ts:182](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L182)*
+*Defined in [packages/types/src/types.ts:184](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L184)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[registry](_types_.codec.md#registry)*
 
-*Defined in [packages/types/src/types.ts:92](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L92)*
+*Defined in [packages/types/src/types.ts:94](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L94)*
 
 **`description`** The registry associated with this object
 
@@ -129,7 +129,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/types.ts:183](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L183)*
+*Defined in [packages/types/src/types.ts:185](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L185)*
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/types.ts:184](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L184)*
+*Defined in [packages/types/src/types.ts:186](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L186)*
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/types.ts:185](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L185)*
+*Defined in [packages/types/src/types.ts:187](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L187)*
 
 ## Methods
 
@@ -157,7 +157,7 @@ ___
 
 ▸ **addSignature**(`signer`: [Address](../classes/_primitive_generic_address_.address.md) | Uint8Array | string, `signature`: Uint8Array | string, `payload`: Uint8Array | string): *[IExtrinsicSignature](_types_.iextrinsicsignature.md)*
 
-*Defined in [packages/types/src/types.ts:200](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L200)*
+*Defined in [packages/types/src/types.ts:202](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L202)*
 
 **Parameters:**
 
@@ -177,7 +177,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[eq](_types_.codec.md#eq)*
 
-*Defined in [packages/types/src/types.ts:97](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L97)*
+*Defined in [packages/types/src/types.ts:99](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L99)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -195,7 +195,7 @@ ___
 
 ▸ **sign**(`method`: [Call](../classes/_primitive_generic_call_.call.md), `account`: [IKeyringPair](_types_.ikeyringpair.md), `options`: [SignatureOptions](_types_.signatureoptions.md)): *[IExtrinsicSignature](_types_.iextrinsicsignature.md)*
 
-*Defined in [packages/types/src/types.ts:201](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L201)*
+*Defined in [packages/types/src/types.ts:203](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L203)*
 
 **Parameters:**
 
@@ -215,7 +215,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toHex](_types_.codec.md#tohex)*
 
-*Defined in [packages/types/src/types.ts:102](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L102)*
+*Defined in [packages/types/src/types.ts:104](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L104)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -235,7 +235,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toJSON](_types_.codec.md#tojson)*
 
-*Defined in [packages/types/src/types.ts:107](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L107)*
+*Defined in [packages/types/src/types.ts:109](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L109)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -249,7 +249,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toRawType](_types_.codec.md#torawtype)*
 
-*Defined in [packages/types/src/types.ts:112](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L112)*
+*Defined in [packages/types/src/types.ts:114](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L114)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -263,7 +263,7 @@ ___
 
 *Inherited from [Codec](_types_.codec.md).[toString](_types_.codec.md#tostring)*
 
-*Defined in [packages/types/src/types.ts:117](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L117)*
+*Defined in [packages/types/src/types.ts:119](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L119)*
 
 **`description`** Returns the string representation of the value
 
@@ -273,11 +273,11 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *Uint8Array*
+▸ **toU8a**(`isBare?`: [BareOpts](../modules/_types_.md#bareopts)): *Uint8Array*
 
 *Inherited from [Codec](_types_.codec.md).[toU8a](_types_.codec.md#tou8a)*
 
-*Defined in [packages/types/src/types.ts:123](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/types.ts#L123)*
+*Defined in [packages/types/src/types.ts:125](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/types.ts#L125)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -285,6 +285,6 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`isBare?` | undefined &#124; false &#124; true | true when the value has none of the type-specific prefixes (internal)  |
+`isBare?` | [BareOpts](../modules/_types_.md#bareopts) | true when the value has none of the type-specific prefixes (internal)  |
 
 **Returns:** *Uint8Array*

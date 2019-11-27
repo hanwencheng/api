@@ -21,7 +21,7 @@
 
 • **SPECIAL_TYPES**: *string[]* =  ['AccountId', 'AccountIndex', 'Address', 'Balance']
 
-*Defined in [packages/types/src/codec/utils/encodeTypes.ts:11](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/codec/utils/encodeTypes.ts#L11)*
+*Defined in [packages/types/src/codec/utils/encodeTypes.ts:11](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/codec/utils/encodeTypes.ts#L11)*
 
 ## Functions
 
@@ -29,7 +29,7 @@
 
 ▸ **displayType**(`typeDef`: Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›): *string*
 
-*Defined in [packages/types/src/codec/utils/encodeTypes.ts:134](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/codec/utils/encodeTypes.ts#L134)*
+*Defined in [packages/types/src/codec/utils/encodeTypes.ts:134](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/codec/utils/encodeTypes.ts#L134)*
 
 **Parameters:**
 
@@ -45,7 +45,7 @@ ___
 
 ▸ **encodeType**(`typeDef`: Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›): *string*
 
-*Defined in [packages/types/src/codec/utils/encodeTypes.ts:126](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/codec/utils/encodeTypes.ts#L126)*
+*Defined in [packages/types/src/codec/utils/encodeTypes.ts:126](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/codec/utils/encodeTypes.ts#L126)*
 
 **Parameters:**
 
@@ -61,7 +61,7 @@ ___
 
 ▸ **paramsNotation**(`outer`: string, `inner?`: string | any[], `transform`: function): *string*
 
-*Defined in [packages/types/src/codec/utils/encodeTypes.ts:15](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/codec/utils/encodeTypes.ts#L15)*
+*Defined in [packages/types/src/codec/utils/encodeTypes.ts:15](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/codec/utils/encodeTypes.ts#L15)*
 
 **Parameters:**
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **withTypeString**(`typeDef`: Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›): *Pick‹[TypeDef](../interfaces/_codec_create_types_.typedef.md), any›*
 
-*Defined in [packages/types/src/codec/utils/encodeTypes.ts:149](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/types/src/codec/utils/encodeTypes.ts#L149)*
+*Defined in [packages/types/src/codec/utils/encodeTypes.ts:149](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/codec/utils/encodeTypes.ts#L149)*
 
 **Parameters:**
 

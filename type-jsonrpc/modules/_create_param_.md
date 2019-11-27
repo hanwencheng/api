@@ -14,7 +14,7 @@
 
 ▸ **createParam**(`name`: string, `type`: InterfaceTypes, `__namedParameters`: object): *[RpcParam](../interfaces/_types_.rpcparam.md)*
 
-*Defined in [create/param.ts:12](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/type-jsonrpc/src/create/param.ts#L12)*
+*Defined in [create/param.ts:12](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/type-jsonrpc/src/create/param.ts#L12)*
 
 **Parameters:**
 

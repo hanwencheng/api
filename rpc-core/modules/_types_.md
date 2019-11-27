@@ -19,4 +19,4 @@
 
 Ƭ **UserRpc**: *Record‹string, [UserRpcMethod](../interfaces/_types_.userrpcmethod.md)[]›*
 
-*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/33fd1b1c78/packages/rpc-core/src/types.ts#L18)*
+*Defined in [types.ts:18](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/rpc-core/src/types.ts#L18)*
