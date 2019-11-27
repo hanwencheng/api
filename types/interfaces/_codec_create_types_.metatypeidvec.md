@@ -18,4 +18,4 @@
 
 • **slice.type**: *[TypeIndex](../modules/_codec_create_types_.md#typeindex)*
 
-*Defined in [packages/types/src/codec/create/types.ts:79](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/types/src/codec/create/types.ts#L79)*
+*Defined in [packages/types/src/codec/create/types.ts:79](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/types/src/codec/create/types.ts#L79)*

@@ -36,7 +36,7 @@
 
 • **accountId**: *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:141](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L141)*
+*Defined in [packages/api-derive/src/types.ts:141](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L141)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 *Inherited from [DerivedStakingStash](_types_.derivedstakingstash.md).[controllerId](_types_.derivedstakingstash.md#optional-controllerid)*
 
-*Defined in [packages/api-derive/src/types.ts:131](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L131)*
+*Defined in [packages/api-derive/src/types.ts:131](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L131)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 *Inherited from [DerivedStakingStash](_types_.derivedstakingstash.md).[nextKeys](_types_.derivedstakingstash.md#optional-nextkeys)*
 
-*Defined in [packages/api-derive/src/types.ts:134](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L134)*
+*Defined in [packages/api-derive/src/types.ts:134](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L134)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • **nextSessionIds**: *AccountId[]*
 
-*Defined in [packages/api-derive/src/types.ts:142](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L142)*
+*Defined in [packages/api-derive/src/types.ts:142](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L142)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 *Inherited from [DerivedStakingStash](_types_.derivedstakingstash.md).[nominators](_types_.derivedstakingstash.md#optional-nominators)*
 
-*Defined in [packages/api-derive/src/types.ts:132](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L132)*
+*Defined in [packages/api-derive/src/types.ts:132](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L132)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 *Inherited from [DerivedStakingOnlineStatus](_types_.derivedstakingonlinestatus.md).[offline](_types_.derivedstakingonlinestatus.md#optional-offline)*
 
-*Defined in [packages/api-derive/src/types.ts:119](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L119)*
+*Defined in [packages/api-derive/src/types.ts:119](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L119)*
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 *Inherited from [DerivedStakingOnlineStatus](_types_.derivedstakingonlinestatus.md).[online](_types_.derivedstakingonlinestatus.md#optional-online)*
 
-*Defined in [packages/api-derive/src/types.ts:115](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L115)*
+*Defined in [packages/api-derive/src/types.ts:115](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L115)*
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 • **redeemable**? : *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:143](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L143)*
+*Defined in [packages/api-derive/src/types.ts:143](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L143)*
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 *Inherited from [DerivedStakingStash](_types_.derivedstakingstash.md).[rewardDestination](_types_.derivedstakingstash.md#optional-rewarddestination)*
 
-*Defined in [packages/api-derive/src/types.ts:133](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L133)*
+*Defined in [packages/api-derive/src/types.ts:133](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L133)*
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 • **sessionIds**: *AccountId[]*
 
-*Defined in [packages/api-derive/src/types.ts:144](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L144)*
+*Defined in [packages/api-derive/src/types.ts:144](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L144)*
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 *Inherited from [DerivedStakingStash](_types_.derivedstakingstash.md).[stakers](_types_.derivedstakingstash.md#optional-stakers)*
 
-*Defined in [packages/api-derive/src/types.ts:135](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L135)*
+*Defined in [packages/api-derive/src/types.ts:135](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L135)*
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 • **stakingLedger**? : *StakingLedger*
 
-*Defined in [packages/api-derive/src/types.ts:145](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L145)*
+*Defined in [packages/api-derive/src/types.ts:145](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L145)*
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 *Inherited from [DerivedStakingStash](_types_.derivedstakingstash.md).[stashId](_types_.derivedstakingstash.md#optional-stashid)*
 
-*Defined in [packages/api-derive/src/types.ts:136](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L136)*
+*Defined in [packages/api-derive/src/types.ts:136](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L136)*
 
 ___
 
@@ -156,7 +156,7 @@ ___
 
 • **unlocking**? : *[DerivedUnlocking](../modules/_types_.md#derivedunlocking)[]*
 
-*Defined in [packages/api-derive/src/types.ts:146](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L146)*
+*Defined in [packages/api-derive/src/types.ts:146](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L146)*
 
 ___
 
@@ -166,4 +166,4 @@ ___
 
 *Inherited from [DerivedStakingStash](_types_.derivedstakingstash.md).[validatorPrefs](_types_.derivedstakingstash.md#optional-validatorprefs)*
 
-*Defined in [packages/api-derive/src/types.ts:137](https://github.com/polkadot-js/api/blob/b440c9b0ea/packages/api-derive/src/types.ts#L137)*
+*Defined in [packages/api-derive/src/types.ts:137](https://github.com/polkadot-js/api/blob/7b37cc79a3/packages/api-derive/src/types.ts#L137)*
