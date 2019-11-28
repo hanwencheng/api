@@ -12,6 +12,6 @@
 * [EventId](../interfaces/_interfaces_system_types_.eventid.md)
 * [EventIndex](../interfaces/_interfaces_system_types_.eventindex.md)
 * [EventRecord](../interfaces/_interfaces_system_types_.eventrecord.md)
-* [EventRecord0to76](../interfaces/_interfaces_system_types_.eventrecord0to76.md)
+* [EventRecordTo76](../interfaces/_interfaces_system_types_.eventrecordto76.md)
 * [Key](../interfaces/_interfaces_system_types_.key.md)
 * [Phase](../interfaces/_interfaces_system_types_.phase.md)

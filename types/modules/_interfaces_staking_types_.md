@@ -25,4 +25,5 @@
 * [UnappliedSlashOther](../interfaces/_interfaces_staking_types_.unappliedslashother.md)
 * [UnlockChunk](../interfaces/_interfaces_staking_types_.unlockchunk.md)
 * [ValidatorPrefs](../interfaces/_interfaces_staking_types_.validatorprefs.md)
-* [ValidatorPrefs0to145](../interfaces/_interfaces_staking_types_.validatorprefs0to145.md)
+* [ValidatorPrefsTo145](../interfaces/_interfaces_staking_types_.validatorprefsto145.md)
+* [ValidatorPrefsTo196](../interfaces/_interfaces_staking_types_.validatorprefsto196.md)

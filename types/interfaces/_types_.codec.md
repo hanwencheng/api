@@ -146,7 +146,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [EventMetadataV8](_interfaces_metadata_types_.eventmetadatav8.md)
 * [EventMetadataV9](_interfaces_metadata_types_.eventmetadatav9.md)
 * [EventRecord](_interfaces_system_types_.eventrecord.md)
-* [EventRecord0to76](_interfaces_system_types_.eventrecord0to76.md)
+* [EventRecordTo76](_interfaces_system_types_.eventrecordto76.md)
 * [Exposure](_interfaces_staking_types_.exposure.md)
 * [Extrinsic](_interfaces_runtime_types_.extrinsic.md)
 * [Extrinsic](../classes/_primitive_extrinsic_extrinsic_.extrinsic.md)
@@ -455,7 +455,8 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [ValidatorId](_interfaces_runtime_types_.validatorid.md)
 * [ValidatorIndex](_interfaces_parachains_types_.validatorindex.md)
 * [ValidatorPrefs](_interfaces_staking_types_.validatorprefs.md)
-* [ValidatorPrefs0to145](_interfaces_staking_types_.validatorprefs0to145.md)
+* [ValidatorPrefsTo145](_interfaces_staking_types_.validatorprefsto145.md)
+* [ValidatorPrefsTo196](_interfaces_staking_types_.validatorprefsto196.md)
 * [ValidityAttestation](_interfaces_parachains_types_.validityattestation.md)
 * [Vec](../classes/_codec_vec_.vec.md)
 * [VecAny](../classes/_codec_vecany_.vecany.md)
@@ -496,7 +497,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
 • **encodedLength**: *number*
 
-*Defined in [packages/types/src/types.ts:79](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L79)*
+*Defined in [packages/types/src/types.ts:79](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L79)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -506,7 +507,7 @@ ___
 
 • **hash**: *[IHash](_types_.ihash.md)*
 
-*Defined in [packages/types/src/types.ts:84](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L84)*
+*Defined in [packages/types/src/types.ts:84](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L84)*
 
 **`description`** Returns a hash of the value
 
@@ -516,7 +517,7 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Defined in [packages/types/src/types.ts:89](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L89)*
+*Defined in [packages/types/src/types.ts:89](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L89)*
 
 **`description`** Checks if the value is an empty value
 
@@ -526,7 +527,7 @@ ___
 
 • **registry**: *[Registry](_types_.registry.md)*
 
-*Defined in [packages/types/src/types.ts:94](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L94)*
+*Defined in [packages/types/src/types.ts:94](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L94)*
 
 **`description`** The registry associated with this object
 
@@ -536,7 +537,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [packages/types/src/types.ts:99](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L99)*
+*Defined in [packages/types/src/types.ts:99](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L99)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -554,7 +555,7 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [packages/types/src/types.ts:104](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L104)*
+*Defined in [packages/types/src/types.ts:104](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L104)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -572,7 +573,7 @@ ___
 
 ▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
-*Defined in [packages/types/src/types.ts:109](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L109)*
+*Defined in [packages/types/src/types.ts:109](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L109)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -584,7 +585,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [packages/types/src/types.ts:114](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L114)*
+*Defined in [packages/types/src/types.ts:114](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L114)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -596,7 +597,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [packages/types/src/types.ts:119](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L119)*
+*Defined in [packages/types/src/types.ts:119](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L119)*
 
 **`description`** Returns the string representation of the value
 
@@ -608,7 +609,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: [BareOpts](../modules/_types_.md#bareopts)): *Uint8Array*
 
-*Defined in [packages/types/src/types.ts:125](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L125)*
+*Defined in [packages/types/src/types.ts:125](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L125)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

@@ -15,7 +15,7 @@
 
 ▸ **createGetter**(`name`: string, `type`: string, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md), `doc?`: undefined | string): *string*
 
-*Defined in [packages/types/src/scripts/generateTypes/tsDef.ts:19](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/scripts/generateTypes/tsDef.ts#L19)*
+*Defined in [packages/types/src/scripts/generateTypes/tsDef.ts:19](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/scripts/generateTypes/tsDef.ts#L19)*
 
 **Parameters:**
 
@@ -34,6 +34,6 @@ ___
 
 ▸ **generateTsDef**(): *void*
 
-*Defined in [packages/types/src/scripts/generateTypes/tsDef.ts:287](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/scripts/generateTypes/tsDef.ts#L287)*
+*Defined in [packages/types/src/scripts/generateTypes/tsDef.ts:287](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/scripts/generateTypes/tsDef.ts#L287)*
 
 **Returns:** *void*
