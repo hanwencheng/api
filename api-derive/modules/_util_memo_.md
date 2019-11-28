@@ -14,7 +14,7 @@
 
 ▸ **memo**<**T**>(`inner`: ObsFn‹T›): *ObsFn‹T›*
 
-*Defined in [packages/api-derive/src/util/memo.ts:18](https://github.com/polkadot-js/api/blob/8ed2bda3a8/packages/api-derive/src/util/memo.ts#L18)*
+*Defined in [packages/api-derive/src/util/memo.ts:18](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/api-derive/src/util/memo.ts#L18)*
 
 **Type parameters:**
 

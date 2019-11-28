@@ -20,7 +20,7 @@
 
 • **address**: *string*
 
-*Defined in [packages/types/src/types.ts:38](https://github.com/polkadot-js/api/blob/8ed2bda3a8/packages/types/src/types.ts#L38)*
+*Defined in [packages/types/src/types.ts:38](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L38)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **publicKey**: *Uint8Array*
 
-*Defined in [packages/types/src/types.ts:39](https://github.com/polkadot-js/api/blob/8ed2bda3a8/packages/types/src/types.ts#L39)*
+*Defined in [packages/types/src/types.ts:39](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L39)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **sign**: *function*
 
-*Defined in [packages/types/src/types.ts:40](https://github.com/polkadot-js/api/blob/8ed2bda3a8/packages/types/src/types.ts#L40)*
+*Defined in [packages/types/src/types.ts:40](https://github.com/polkadot-js/api/blob/4cb8462d50/packages/types/src/types.ts#L40)*
 
 #### Type declaration:
 
