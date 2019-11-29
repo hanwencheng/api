@@ -24,7 +24,7 @@
 
 • **blockHash**: *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [packages/types/src/types.ts:191](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L191)*
+*Defined in [packages/types/src/types.ts:191](https://github.com/polkadot-js/api/blob/89700f98c5/packages/types/src/types.ts#L191)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **era**: *[AnyU8a](../modules/_types_.md#anyu8a) | [IExtrinsicEra](_types_.iextrinsicera.md)*
 
-*Defined in [packages/types/src/types.ts:192](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L192)*
+*Defined in [packages/types/src/types.ts:192](https://github.com/polkadot-js/api/blob/89700f98c5/packages/types/src/types.ts#L192)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • **genesisHash**: *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [packages/types/src/types.ts:193](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L193)*
+*Defined in [packages/types/src/types.ts:193](https://github.com/polkadot-js/api/blob/89700f98c5/packages/types/src/types.ts#L193)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • **method**: *[AnyU8a](../modules/_types_.md#anyu8a) | [IMethod](_types_.imethod.md)*
 
-*Defined in [packages/types/src/types.ts:194](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L194)*
+*Defined in [packages/types/src/types.ts:194](https://github.com/polkadot-js/api/blob/89700f98c5/packages/types/src/types.ts#L194)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **nonce**: *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [packages/types/src/types.ts:195](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L195)*
+*Defined in [packages/types/src/types.ts:195](https://github.com/polkadot-js/api/blob/89700f98c5/packages/types/src/types.ts#L195)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • **specVersion**: *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [packages/types/src/types.ts:196](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L196)*
+*Defined in [packages/types/src/types.ts:196](https://github.com/polkadot-js/api/blob/89700f98c5/packages/types/src/types.ts#L196)*
 
 ___
 
@@ -72,4 +72,4 @@ ___
 
 • **tip**: *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [packages/types/src/types.ts:197](https://github.com/polkadot-js/api/blob/eade586044/packages/types/src/types.ts#L197)*
+*Defined in [packages/types/src/types.ts:197](https://github.com/polkadot-js/api/blob/89700f98c5/packages/types/src/types.ts#L197)*
