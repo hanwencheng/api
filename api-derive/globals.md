@@ -21,6 +21,7 @@
 * ["chain/getHeader"](modules/_chain_getheader_.md)
 * ["chain/subscribeNewHeads"](modules/_chain_subscribenewheads_.md)
 * ["contracts/fees"](modules/_contracts_fees_.md)
+* ["democracy/proposals"](modules/_democracy_proposals_.md)
 * ["democracy/referendumInfo"](modules/_democracy_referenduminfo_.md)
 * ["democracy/referendumInfos"](modules/_democracy_referenduminfos_.md)
 * ["democracy/referendumVotesFor"](modules/_democracy_referendumvotesfor_.md)
